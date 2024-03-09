@@ -96,11 +96,13 @@
     left: 89%;
 }
 
+
+/* Cuadro1 */
 .cuadro1 {
     position: absolute;
     left: 4.9%;
     top: 18.5vi ;
-    width: 86%;   
+    width: 87%;   
     height: 1.5vi;
     background-color: transparent;
     padding: 1vw; 
@@ -114,12 +116,38 @@
     color: #333;
     margin: 0; 
 }
+.cuadro1  img{
+    position: absolute;
+    top: 0;
+    left: 84%;
+    width: 4.2vw;
+}
+
+.cuadro1 div{
+    position: absolute;
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+.lineascuadro1{
+    position: absolute;
+    top: 19.3vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+
+
+
+
+/* Cuadro2 */
 
 .cuadro2 {
     position: absolute;
     left: 4.9%;
     top: 22.8vi ;
-    width: 86%;   
+    width: 87%;   
     height: 1.5vi;
     background-color: transparent;
     padding: 1vw; 
@@ -133,11 +161,36 @@
     color: #333;
     margin: 0; 
 }
+
+.cuadro2  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.5vw;
+}
+
+.cuadro2 div{
+    position: absolute;
+    top: 1vi;
+    left: 93.9%;
+    font-size: 1vw;
+}
+.lineascuadro2{
+    position: absolute;
+    top: 23.5vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+    
+
+}
+
+/* Cuadro3 */
 .cuadro3 {
     position: absolute;
     left: 4.9%;
     top: 27.1vi ;
-    width: 86%;   
+    width: 87%;   
     height: 1.5vi;
     background-color: transparent;
     padding: 1vw; 
@@ -151,11 +204,35 @@
     color: #000000;
     margin: 0; 
 }
+
+.cuadro3  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.3vw;
+}
+
+.cuadro3 div{
+    position: absolute;
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+
+.lineascuadro3{
+    position: absolute;
+    top: 28vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+/* cuadro4 */
 .cuadro4 {
     position: absolute;
     left: 4.9%;
     top: 31.4vi ;
-    width: 86%;   
+    width: 87%;   
     height: 1.5vi;
     background-color: transparent;
     padding: 1vw; 
@@ -169,11 +246,35 @@
     color: #333;
     margin: 0; 
 }
+.cuadro4  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.5vw;
+}
+
+.cuadro4 div{
+    position: absolute;
+    top: 1vi;
+    left: 93.8%;
+    font-size: 1vw;
+}
+
+.lineascuadro4{
+    position: absolute;
+    top: 32.5vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+
+/* Cuadro5 */
 .cuadro5 {
     position: absolute;
     left: 4.9%;
     top: 35.8vi ;
-    width: 86%;   
+    width: 87%;   
     height: 1.5vi;
     background-color: transparent;
     padding: 1vw; 
@@ -187,12 +288,39 @@
     color: #333;
     margin: 0; 
 }
+.cuadro5  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.6vw;
+}
+
+.cuadro5 div{
+    position: absolute;
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+
+.lineascuadro5{
+    position: absolute;
+    top: 37vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+
+
+
+/* Cuadro6 */
+
 
 .cuadro6 {
     position: absolute;
     left: 4.9%;
     top: 40.2vi ;
-    width: 86%;   
+    width: 87%;   
     height: 1.5vi;
     background-color: transparent;
     padding: 1vw; 
@@ -207,6 +335,28 @@
     margin: 0; 
 }
 
+.cuadro6  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.6vw;
+}
+
+.cuadro6 div{
+    position: absolute;
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+
+.lineascuadro6{
+    position: absolute;
+    top: 41.3vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
 
 .cuadro7 {
     position: absolute;
