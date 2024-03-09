@@ -24,15 +24,15 @@
     position: absolute;
     display: flex;
     width: 2%;
-    left: 7vw;
+    left: 8vw;
     top: 3vh;
 }
 
 .textoañadir {
     position: absolute;
-    font-size: 1vw;
-    left: 10vw;
-    top: 4vh;
+    font-size: 1.4vw;
+    left: 11vw;
+    top: 3.5vh;
     text-decoration: none;
     color: black;
 }
@@ -47,9 +47,9 @@
 }
 .textorecargar {
     position: absolute;
-    font-size: 1vw;
+    font-size: 1.4vw;
     left: 23vw;
-    top: 4vh;
+    top: 3.5vh;
     text-decoration: none;
     color: black;
 }
@@ -63,9 +63,9 @@
 }
 .textoeliminar {
     position: absolute;
-    font-size: 1vw;
+    font-size: 1.4vw;
     left: 36vw;
-    top: 4vh;
+    top: 3.5vh;
     text-decoration: none;
     color: black;
 }
@@ -87,9 +87,9 @@
 }
 .textoreportes {
     position: absolute;
-    font-size: 1vw;
+    font-size: 1.4vw;
     left: 66vw;
-    top: 4vh;
+    top: 3.5vh;
     text-decoration: none;
     color: black;
 }
@@ -103,9 +103,9 @@
 .textoayuda {
     position: absolute;
     color: black;
-    font-size: 1vw;
+    font-size: 1.4vw;
     left: 80vw;
-    top: 4vh;
+    top: 3.5vh;
     text-decoration: none;
 }
 
