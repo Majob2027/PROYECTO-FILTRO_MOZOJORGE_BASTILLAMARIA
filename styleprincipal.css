@@ -32,17 +32,17 @@ hr {
     width: 2.5%;
     left: 7vw;
     top: 3vh;
-    transform: translateX(-50%);
 }
 
 .textoañadir {
     position: absolute;
     font-size: 1.3vw;
-    left: 9vw;
+    left: 10vw;
     top: 4vh;
     text-decoration: none;
     color: black;
 }
+
 
 .imgrecargar {
     position: absolute;
@@ -50,12 +50,11 @@ hr {
     width: 2.4%;
     left: 20%;
     top: 3vh; 
-    transform: translateX(-50%);
 }
 .textorecargar {
     position: absolute;
     font-size: 1.3vw;
-    left: 22vw;
+    left: 23vw;
     top: 4vh;
     text-decoration: none;
     color: black;
@@ -67,12 +66,11 @@ hr {
     width: 2%;
     left: 33%;
     top: 3vh;
-    transform: translateX(-50%);
 }
 .textoeliminar {
     position: absolute;
     font-size: 1.3vw;
-    left: 35vw;
+    left: 36vw;
     top: 4vh;
     text-decoration: none;
     color: black;
@@ -92,12 +90,11 @@ hr {
     width: 2.3%;
     left: 63%;
     top: 3vh;
-    transform: translateX(-50%);
 }
 .textoreportes {
     position: absolute;
     font-size: 1.3vw;
-    left: 65vw;
+    left: 66vw;
     top: 4vh;
     text-decoration: none;
     color: black;
@@ -108,13 +105,12 @@ hr {
     width: 2.5%;
     left: 77%;
     top: 3vh;
-    transform: translateX(-50%);
 }
 .textoayuda {
     position: absolute;
     color: black;
     font-size: 1.3vw;
-    left: 79vw;
+    left: 80vw;
     top: 4vh;
     text-decoration: none;
 }
@@ -123,28 +119,20 @@ hr {
     position: absolute;
     display: flex;
     width: 1.8%;
-    left: 90%;
+    left: 89%;
     top: 3.5vh;
-    transform: translateX(-50%);
 }
 .imgnotificaciones {
     position: absolute;
     display: flex;
     width: 1.8%;
-    left: 93.5%;
+    left: 92%;
     top: 3.5vh;
-    transform: translateX(-50%);
 }
 .imgfotoperfil {
     position: absolute;
     display: flex;
     width: 3%;
-    left: 97%;
-    top: 1.8vh;
-    transform: translateX(-50%);
+    left: 95%;
+    top: 2.5vh;
 }
-
-
-
-
-
