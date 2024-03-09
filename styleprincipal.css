@@ -40,6 +40,8 @@ hr {
     font-size: 1.3vw;
     left: 9vw;
     top: 4vh;
+    text-decoration: none;
+    color: black;
 }
 
 .imgrecargar {
@@ -55,6 +57,8 @@ hr {
     font-size: 1.3vw;
     left: 22vw;
     top: 4vh;
+    text-decoration: none;
+    color: black;
 }
 
 .imgeliminar {
@@ -70,6 +74,8 @@ hr {
     font-size: 1.3vw;
     left: 35vw;
     top: 4vh;
+    text-decoration: none;
+    color: black;
 }
 
 .imglogo {
@@ -93,6 +99,8 @@ hr {
     font-size: 1.3vw;
     left: 65vw;
     top: 4vh;
+    text-decoration: none;
+    color: black;
 }
 .imgayuda {
     position: absolute;
@@ -104,9 +112,11 @@ hr {
 }
 .textoayuda {
     position: absolute;
+    color: black;
     font-size: 1.3vw;
     left: 79vw;
     top: 4vh;
+    text-decoration: none;
 }
 
 .imgconfiguracion {
