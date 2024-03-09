@@ -64,7 +64,7 @@
 }
 .recuadro1 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -81,7 +81,7 @@
 }
 .recuadro2 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -99,7 +99,7 @@
 }
 .recuadro3 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -117,7 +117,7 @@
 }
 .recuadro4 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -134,7 +134,7 @@
 }
 .recuadro5 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -151,7 +151,7 @@
 }
 .recuadro6 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -168,7 +168,7 @@
 }
 .recuadro7 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -185,7 +185,7 @@
 }
 .recuadro8 div{
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.95vw;
     font-family: regular;
     top: 0.5vi;
     left: 2%;
@@ -197,7 +197,7 @@
     left: 38%;
     width: 20%;
     height: 2.5vi;  
-    background-color:#ffffff; 
+    background-color:#e7e7e7; 
     border-radius: 5px;
 }
 .cuadro9 div{
