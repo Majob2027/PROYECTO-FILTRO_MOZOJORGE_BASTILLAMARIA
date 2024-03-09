@@ -1,0 +1,119 @@
+.body {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 56.25%;
+}
+
+.imgañadir {
+    position: absolute;
+    display: flex;
+    width: 2.5%;
+    left: 7vw;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+
+.textoañadir {
+    position: absolute;
+    font-size: 1.3vw;
+    left: 9vw;
+    top: 3vh;
+}
+
+.imgrecargar {
+    position: absolute;
+    display: flex;
+    width: 2.4%;
+    left: 20%;
+    top: 2vh; 
+    transform: translateX(-50%);
+}
+.textorecargar {
+    position: absolute;
+    font-size: 1.3vw;
+    left: 9vw;
+    top: 3vh;
+}
+
+.imgeliminar {
+    position: absolute;
+    display: flex;
+    width: 2%;
+    left: 33%;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+.textoeliminar {
+    position: absolute;
+    font-size: 1.3vw;
+    left: 9vw;
+    top: 3vh;
+}
+
+.imglogo {
+    position: absolute;
+    display: flex;
+    width: 2.5%;
+    left: 48%;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+.imgreportes {
+    position: absolute;
+    display: flex;
+    width: 2.5%;
+    left: 63%;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+.textoreportes {
+    position: absolute;
+    font-size: 1.3vw;
+    left: 9vw;
+    top: 3vh;
+}
+.imgayuda {
+    position: absolute;
+    display: flex;
+    width: 2.5%;
+    left: 77%;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+.textoayuda {
+    position: absolute;
+    font-size: 1.3vw;
+    left: 9vw;
+    top: 3vh;
+}
+
+.imgconfiguracion {
+    position: absolute;
+    display: flex;
+    width: 2%;
+    left: 90%;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+.imgnotificaciones {
+    position: absolute;
+    display: flex;
+    width: 2%;
+    left: 93.5%;
+    top: 2vh;
+    transform: translateX(-50%);
+}
+.imgfotoperfil {
+    position: absolute;
+    display: flex;
+    width: 3%;
+    left: 97%;
+    top: 0.8vh;
+    transform: translateX(-50%);
+}
+
+
+
+
+
