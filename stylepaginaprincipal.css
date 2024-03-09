@@ -20,7 +20,7 @@
     color: black;
     font-size: 2vw;
     left: 41%;
-    top: 8vi;
+    top: 6vi;
     text-decoration: none;
 }
 
@@ -29,69 +29,201 @@
     color: black;
     font-size: 1.3vw;
     font-family: Light;
-    top: 13vi;
+    top: 11vi;
     left: 26.3%;
 }
 .indicador{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
-    left: 5%;
+    top: 16vi;
+    left: 6%;
 }
 .descripcion{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 18.5%;
 }
 .categoria{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 31%;
 }
 .inicio{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 39%;
 }
 .terminacion{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 49%;
 }
 .formula{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 62%;
 }
 .frecuencia{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 69%;
 }
 .cumplimiento{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 78%;
 }
 .area{
     position: absolute;
     color: black;
     font-size: 1.1VW;
-    top: 18.5vi;
+    top: 16vi;
     left: 89%;
+}
+
+.cuadro1 {
+    position: absolute;
+    left: 4.9%;
+    top: 18.5vi ;
+    width: 86%;   
+    height: 1.5vi;
+    background-color: transparent;
+    padding: 1vw; 
+    border: 1px solid #868686;
+    border-radius: 20px;
+}
+
+
+.cuadro1 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+
+.cuadro2 {
+    position: absolute;
+    left: 4.9%;
+    top: 22.8vi ;
+    width: 86%;   
+    height: 1.5vi;
+    background-color: transparent;
+    padding: 1vw; 
+    border: 1px solid #807f7f;
+    border-radius: 20px;
+}
+
+
+.cuadro2 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+.cuadro3 {
+    position: absolute;
+    left: 4.9%;
+    top: 27.1vi ;
+    width: 86%;   
+    height: 1.5vi;
+    background-color: transparent;
+    padding: 1vw; 
+    border: 1px solid #7e7e7e;
+    border-radius: 20px;
+}
+
+
+.cuadro3 p {
+    font-size: 1vw; 
+    color: #000000;
+    margin: 0; 
+}
+.cuadro4 {
+    position: absolute;
+    left: 4.9%;
+    top: 31.4vi ;
+    width: 86%;   
+    height: 1.5vi;
+    background-color: transparent;
+    padding: 1vw; 
+    border: 1px solid #868686;
+    border-radius: 20px;
+}
+
+
+.cuadro4 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+.cuadro5 {
+    position: absolute;
+    left: 4.9%;
+    top: 35.8vi ;
+    width: 86%;   
+    height: 1.5vi;
+    background-color: transparent;
+    padding: 1vw; 
+    border: 1px solid #929292;
+    border-radius: 20px;
+}
+
+
+.cuadro5 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+
+.cuadro6 {
+    position: absolute;
+    left: 4.9%;
+    top: 40.2vi ;
+    width: 86%;   
+    height: 1.5vi;
+    background-color: transparent;
+    padding: 1vw; 
+    border: 1px solid #919191;
+    border-radius: 20px;
+}
+
+
+.cuadro6 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+
+
+.cuadro7 {
+    position: absolute;
+    left: 40%;
+    top: 44.5vi ;
+    width: 10%;   
+    height: 1vi;
+    background-color:#ff6f2c;
+    padding: 1vw; 
+    border-radius: 20px;
+}
+
+
+.cuadro7 p {
+    font-family: Light;
+    font-size: 1vw; 
+    color: #ffffff;
+    margin: 0; 
+    text-align: center;
 }

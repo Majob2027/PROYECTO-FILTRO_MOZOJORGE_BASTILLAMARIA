@@ -25,14 +25,14 @@
     display: flex;
     width: 2%;
     left: 8vw;
-    top: 3vh;
+    top: 2vh;
 }
 
 .textoañadir {
     position: absolute;
     font-size: 1.4vw;
     left: 11vw;
-    top: 3.5vh;
+    top: 2.5vh;
     text-decoration: none;
     color: black;
 }
@@ -43,13 +43,13 @@
     display: flex;
     width: 1.9%;
     left: 20%;
-    top: 3vh; 
+    top: 2vh; 
 }
 .textorecargar {
     position: absolute;
     font-size: 1.4vw;
     left: 23vw;
-    top: 3.5vh;
+    top: 2.5vh;
     text-decoration: none;
     color: black;
 }
@@ -59,13 +59,13 @@
     display: flex;
     width: 1.5%;
     left: 33%;
-    top: 3vh;
+    top: 2vh;
 }
 .textoeliminar {
     position: absolute;
     font-size: 1.4vw;
     left: 36vw;
-    top: 3.5vh;
+    top: 2.5vh;
     text-decoration: none;
     color: black;
 }
@@ -75,7 +75,7 @@
     display: flex;
     width: 2.5%;
     left: 50%;
-    top: 3vh;
+    top: 2vh;
     transform: translateX(-50%);
 }
 .imgreportes {
@@ -83,13 +83,13 @@
     display: flex;
     width: 1.8%;
     left: 63%;
-    top: 3vh;
+    top: 2vh;
 }
 .textoreportes {
     position: absolute;
     font-size: 1.4vw;
     left: 66vw;
-    top: 3.5vh;
+    top: 2.5vh;
     text-decoration: none;
     color: black;
 }
@@ -98,14 +98,14 @@
     display: flex;
     width: 2%;
     left: 77%;
-    top: 3vh;
+    top: 2vh;
 }
 .textoayuda {
     position: absolute;
     color: black;
     font-size: 1.4vw;
     left: 80vw;
-    top: 3.5vh;
+    top: 2.5vh;
     text-decoration: none;
 }
 
@@ -114,21 +114,21 @@
     display: flex;
     width: 1.3%;
     left: 89%;
-    top: 3.5vh;
+    top: 2.5vh;
 }
 .imgnotificaciones {
     position: absolute;
     display: flex;
     width: 1.3%;
     left: 92%;
-    top: 3.5vh;
+    top: 2.5vh;
 }
 .imgfotoperfil {
     position: absolute;
     display: flex;
     width: 2.5%;
     left: 95%;
-    top: 2.5vh;
+    top: 1.5vh;
 
 }
 
