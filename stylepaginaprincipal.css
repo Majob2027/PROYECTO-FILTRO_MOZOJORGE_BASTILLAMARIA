@@ -1,0 +1,36 @@
+/* Pagina principal */
+@font-face {
+    font-family: Light;
+    src: url(/fuentes/light.otf);
+}
+@font-face {
+    font-family: regular ;
+    src: url(/fuentes/regular.OTF);
+}
+
+.body {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 56.25%;
+    font-family:regular;
+}
+.tituloindicadores{
+    position: absolute;
+    color: black;
+    font-size: 2vw;
+    left: 44%;
+    top: 14vh;
+    text-decoration: none;
+}
+
+.texto1{
+    position: relative;
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 1.3vw;
+    font-family: Light;
+    top: 22vh;
+    left: 54vh;
+}
