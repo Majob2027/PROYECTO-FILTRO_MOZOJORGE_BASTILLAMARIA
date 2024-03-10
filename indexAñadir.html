@@ -46,19 +46,44 @@
 <div class="cuadro1">
    <!-- Cuadro Añadir -->
    <p> Digite la siguiente informacion</p>
-   <div class="recuadro1"> <div>  Nombre contenedor: </div></div>
-   <input type="text" id="fname" name="fname" placeholder="Type your name" required minlength="1" maxlength="50" ><br><br>
-   <div class="recuadro2"> <div>  Descripcion corta: </div></div>
-   <div class="recuadro3"> <div>  Categoria :</div></div>
-   <div class="recuadro4"> <div>  Fecha de inicio: </div></div>
-   <div class="recuadro5"> <div>  Fecha de finalizacion : </div></div>
-   <div class="recuadro6"> <div>  Formula :</div></div>
-   <div class="recuadro7"> <div>  Frecuencia : </div></div>
-   <div class="recuadro8"> <div>  Area :</div></div>
-   <nav>
-   <a><div class="cuadro9"><div>  Crear </div></div></a>
-   </nav>
-</div>
+   <div class="recuadro1"> <div> <label for="fname">Nombre contenedor:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Nombre contenedor" required minlength="1" maxlength="50" ><br><br>  </div></div>
+   <div class="recuadro2">  <div> <label for="fname">Descripcion corta:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Descripcion" required minlength="1" maxlength="50" ><br><br>  </div></div>
+   <div class="recuadro3"> <div> <label for="lang">Categoria:</label><br>
+      <select name="Poblacion" id="lang">
+      <option value="Baja">Baja</option>
+      <option value="Alta">Alta</option>
+      <option value="Media">Media</option>
+      <option value="NA">Sin categoria</option><br>
+      </select><br><br></div></div>
+   <div class="recuadro4"> <div> <label for="fname">Fecha de inicio:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Digite fecha " required minlength="1" maxlength="50" ><br><br>  </div></div>
+   <div class="recuadro5"> <div> <label for="fname">Fecha de finalizacion:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Digite fecha" required minlength="1" maxlength="50" ><br><br>  </div></div>
+   <div class="recuadro6"> <div> <label for="fname">Formula:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Escriba formula" required minlength="1" maxlength="50" ><br><br>  </div></div>
+   <div class="recuadro7"> <div>  <label for="fname">Frecuencia:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Escriba frecuencia" required minlength="1" maxlength="50" ><br><br>  </div></div>
+   <div class="recuadro8"> <div> <label for="lang">Area:</label><br>
+      <select name="Poblacion" id="lang">
+      <option value="Marketing">Marketing</option>
+      <option value="Diseño">Diseño</option>
+      <option value="Gerencia">Gerencia </option>
+      <option value="Developers">Developers </option>
+      <option value="Produccion">Produccion</option><br>
+      </select><br><br></div></div>
+      <div class="cuadro9"><a href="#openModal">Crear</a></div>
+
+   <div id="openModal" class="modalDialog">
+      <div>
+         <a href="#close" title="Close" class="close">X</a>
+         <h2>Este contenedor ha sido creado correctamente</h2>
+
+      </div>
+    </div>
+
+
 
 
 
