@@ -379,3 +379,172 @@
     text-align: center;
     cursor: pointer;
 }
+/* ------------------------------------------------------------------------------------ */
+/* popup2 */
+
+
+
+
+.modalDialog2 {
+    position: fixed;
+    font-family: regular;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modalDialog2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog2 > div {
+    width: 50%; 
+    position: absolute;
+    left: 26.5%;
+    margin: 5% auto;
+    border-radius: 10px;
+    height: 75vh;
+    background: #fff;
+}
+
+.close2 {
+    background: #606061;
+    color: #FFFFFF;
+    position: absolute;
+    right: 0vw; 
+    text-align: center;
+    top: 0vh; 
+    width: 4vw; 
+    text-decoration: none;
+}
+
+.close2:hover {
+    background: #00d9ff;
+}
+
+.bienvenida {
+    position: absolute;
+    top: 1vi;
+    left: 30%;
+    font-size: 1.7vw;
+    text-align: center;
+    font-family: regular;
+
+}
+.Datos {
+    position: absolute;
+    top: 11vi;
+    left: 47%;
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: regular;
+    color: #ff7221;
+
+}
+
+.foto{
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    top: 6vi;
+}
+.cuadroprincipal{
+    position: absolute;
+    top: 14vi;
+    left: 5%;
+    width: 90%;
+    height: 20vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+}
+.cuadrito1{
+    position: absolute;
+    top: 15vi;
+    left: 15%;
+    width: 70%;
+    height: 3vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    font-size: 1vw;
+    font-family: regular;
+    text-align: center;
+}
+.cuadrito2{
+    position: absolute;
+    top: 18.5vi;
+    left: 15%;
+    width: 70%;
+    height: 3vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    font-size: 1vw;
+    font-family: regular;
+    text-align: center;
+}
+.cuadrito3{
+    position: absolute;
+    top: 22vi;
+    left: 15%;
+    width: 33%;
+    height: 10vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    font-size: 1vw;
+    font-family: regular;
+    text-align: center;
+}
+.subcuadrito3{
+    position: absolute;
+    top: 30vi;
+    left: 25%;
+    width: 14%;
+    height: 1.5vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+    font-size: 0.9vw;
+    color: white;
+    font-family: regular;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cuadrito4{
+    position: absolute;
+    top: 22vi;
+    left: 52%;
+    width: 33%;
+    height: 10vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    font-size: 1vw;
+    font-family: regular;
+    text-align: center;
+    
+}
+.subcuadrito4{
+    position: absolute;
+    top: 25vi;
+    left: 60%;
+    width: 17%;
+    height: 1.5vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+    font-size: 0.9vw;
+    color: white;
+    font-family: regular;
+    text-align: center;
+    cursor: pointer;
+}
+
