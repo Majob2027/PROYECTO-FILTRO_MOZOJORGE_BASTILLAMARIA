@@ -70,6 +70,9 @@
     left: 2%;
     color: black;
 }
+.headcuadro{
+    font-size: 1.3vi;
+}
 
 .recuadro1 input{
     position: absolute;
@@ -102,7 +105,7 @@
     font-size: 1vw;
     font-family: 'Regular', sans-serif;
     height: 1.1vi;
-    width: 25vw;
+    width: 25vi;
     top: 33%;
     left: 5%;
     border-color: #dfdfdf;
@@ -129,7 +132,7 @@
 .recuadro3 select{
     position: absolute;
     width: 8vw;
-    height: 1vi;
+    height: 1.5vi;
     border-color: #adadad;
 }
 
@@ -257,7 +260,7 @@
 .recuadro8 select{
     position: absolute;
     width: 8vw;
-    height: 1vi;
+    height: 1.5vi;
     border-color: #adadad;
 }
 .cuadro9 {
@@ -303,16 +306,7 @@
     pointer-events: auto;
 }
 
-.modalDialog > div {
-    text-align: center;
-    width: 40%; 
-    position: absolute;
-    left: 31.5%;
-    margin: 10% auto;
-    border-radius: 10px;
-    height: 10vh;
-    background: #fff;
-}
+cc
 
 .close {
     background: #606061;
@@ -498,39 +492,98 @@
 }
 
 @media screen and (max-width: 414px) {
-    .titulo {
-        font-size: 4vw;
+    .bienvenida {
+        top: 2vi;
     }
-
-    .cuadronaranja,
-    .cuadronaranja2,
-    .cuadronaranja3 {
+    .cuadro1{
+        top: 6vi;
+        left: 5%;
         width: 80%;
-        font-size: 4vw;
+        height: 60vi;  
+
+    }
+    .recuadro1
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 7vi;
+    }
+    .recuadro2
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 13vi;
+    }
+    .recuadro3
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 19vi;
+    }
+    .recuadro3 select{
+        width: 13vw;
+        height: 2.5vi;
+        border-color: #adadad;
+        font-size: 1.5vi;
+    }
+    .recuadro4
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 25vi;
+    }
+    .recuadro5
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 31vi;
+    }
+    .recuadro6
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 37vi;
+    }
+    .recuadro7
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 43vi;
+    }
+    .recuadro8
+    {
+        width: 90%;
+        height: 5vi;
+        left: 5%;
+        top: 49vi;
+    }
+    .recuadro8 select{
+        width: 13vw;
+        height: 2.5vi;
+        border-color: #adadad;
+        font-size: 1.5vi;
+    }
+    .cuadro9{
+        top: 55vi;
+        left: 40%;
+    }
+    .modalDialog  div {
+   
+        height: 0vh;
+
+    }
+    .modalDialog2 > div {
+        height: 40vi;
     }
 
-    .textocuadronaranja,
-    .textocuadronaranja2,
-    .textocuadronaranja3 {
-        font-size: 3vw;
-    }
-
-    .formulario1,
-    .formulario2 {
-        font-size: 2vw;
-    }
-
-    .cuadroblanco,
-    .cuadroblanco2 {
-        width: 15%;
-        font-size: 2vw;
-    }
-
-    .texto3,
-    .texto2 {
-        font-size: 2vw;
-    }
-}
+    
 
 
 

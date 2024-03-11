@@ -22,7 +22,7 @@
     width: 100%;
     height: 0.1vi;
     background-color: rgb(154, 154, 154);
-    top: 5.5vi;
+    top: 4.6vi;
     margin: 0;
     z-index: 1;
 }
@@ -147,13 +147,17 @@
 }
 
 @media only screen and (max-width: 414px) {
+    .linea{
+        background-color: transparent;
+    }
 
     .imglogo{
         width: 5%;
-        left: 50%;
+        left: 46%;
         top: 0.3vh;
 
     }
+    
     .imgfotoperfil{
         left: 90%;
         width: 4%;

@@ -392,5 +392,61 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 414px) {
+    .titulo{
+        left: 34vi;
+    }
+    .cuadronaranja{
+        width: 60vi;
+        left: 14%;
+    }
+    .cuadronaranja2{
+        width: 60vi;
+        left: 14%;
+    }
+    .cuadronaranja3{
+        width: 60vi;
+        left: 14%;
+        top: 56vi;
+    }
+    .textocuadronaranja2{
+        left: 28vi;
+
+    }
+    .subrecuadro1{
+        left: 28vi;
+
+    }
+    .formulario1{
+        left: 0vi;
+
+    }
+    .subrecuadro2{
+        left: 28vi;
+
+    }
+    .formulario2{
+        left: 0vi;
+
+    }
+
+    .textocuadronaranja3{
+        top: 63vi;
+        left: 28vi;
+
+    }
+    .cuadroblanco{
+        left: 40vi;
+    }
+    .cuadroblanco2{
+        top: 67vi;
+        left: 28vi;
+
+    }
+    .modalDialog2 > div {
+        height: 40vi;
+    }
+}
+
 
 
