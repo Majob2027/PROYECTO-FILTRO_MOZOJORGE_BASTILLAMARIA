@@ -17,6 +17,14 @@
     height: 56.25%;
     font-family:regular;
 }
+.linea{
+    position: absolute;
+    width: 100%;
+    height: 0.1vh;
+    background-color: rgb(154, 154, 154);
+    top: 8vh;
+    margin: 0;
+}
 
 
 

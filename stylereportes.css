@@ -19,7 +19,7 @@
 /* ------------------------------------------------------------------------------------ */
 /* style reportesssss */
 
-.titulo{
+.titulo {
     position: absolute;
     top: 6.5vi;
     left: 38vw;
@@ -28,71 +28,165 @@
     text-align: center;
     color: #ff7221;
 }
-.cuadronaranja{
-    position: absolute;
-    top: 9vi;
-    left: 5vi;
-    width: 90%;
-    height: 12vi;  
-    margin: 20px auto;
-    background-color:#ff7221; 
-    border-radius: 10px;
 
-}
-.textocuadronaranja{
+.cuadronaranja,
+.cuadronaranja2,
+.cuadronaranja3 {
     position: absolute;
+    width: 90%;
+    margin: 2vw auto;
+    border-radius: 10px;
     color: white;
+    font-family: Light;
+}
+
+.cuadronaranja {
+    top: 8vi;
+    left: 3vi;
+    height: 12vi auto;
+    padding: 2vw;
+    font-size: 1.5vw;
+    width: 90%;
+    height: 12vi; 
+    background-color: #ff7221;
+}
+
+.textocuadronaranja,
+.textocuadronaranja2,
+.textocuadronaranja3 {
+    position: absolute;
+    color: rgb(255, 255, 255);
     font-size: 1.5vw;
     font-family: Light;
-    top: 22vh;
-    left: 8%;
-
-
+    top: 3vi;
+    left: 7%;
 }
-.cuadronaranja2{
-    position: absolute;
-    top: 23vi;
-    left: 5%;
-    width: 43%;
-    height: 20vi;  
-    margin: 20px auto;
-    background-color:#ff7221; 
-    border-radius: 10px;
-    color: white;
-    font-size: 1.8vw;
-}
+
 .textocuadronaranja2{
     position: absolute;
-    color: white;
-    font-size: 1.5vw;
-    font-family: Light;
-    top: 25vi;
+    top: 29vi;
     left: 7%;
 
-
-}
-.cuadronaranja3{
-    position: absolute;
-    top: 23vi;
-    left: 52%;
-    width: 43%;
-    height: 20vi;  
-    margin: 20px auto;
-    background-color:#ff7221; 
-    border-radius: 10px;
-    color: white;
-    font-size: 1.8vw;
 }
 .textocuadronaranja3{
     position: absolute;
-    color: white;
-    font-size: 1.5vw;
-    font-family: Light;
-    top: 25vi;
-    left: 54%;
-
+    top: 29vi;
+    left: 52%;
 
 }
+
+.cuadronaranja2 {
+    top: 26vi;
+    left: 3%;
+    height: auto;
+    padding: 2vw;
+    font-size: 1.8vw;
+    background-color: #ff7221;
+    width: 41%;
+    height: 19vi;  
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.cuadronaranja3 {
+    top: 26vi;
+    left: 50%;
+    height: auto;
+    padding: 2vw;
+    font-size: 1.8vw;
+    width: 43%;
+    height: 19vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+}
+
+.subrecuadro1,
+.subrecuadro2 {
+    position: absolute;
+    width: 37%;
+    height: 5vi;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.subrecuadro1 {
+    top: 32vi;
+    left: 7%;
+}
+
+.subrecuadro2 {
+    top: 38vi;
+    left: 7%;
+}
+
+.formulario1,
+.formulario2 {
+    position: absolute;
+    font-size: 1vw;
+    font-family: regular;
+    width: 30vw;
+    margin-left: 1vw;
+    top: 5.1vh;
+}
+
+
+.cuadroblanco,
+.cuadroblanco2 {
+    position: absolute;
+    top: 35vi;
+    left: 20%;
+    width: 12%;
+    height: 2vi;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1vw;
+    font-family: regular;
+    cursor: pointer;
+}
+.cuadroblanco{
+    position: absolute;
+    top: 45vi;
+
+}
+
+.cuadroblanco2 {
+    position: absolute;
+    top: 35vi;
+    left: 56%;
+    width: 35%;
+    height: 12vi;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1vw;
+    font-family: regular;
+    cursor: pointer;
+}
+
+.texto3 {
+    position: absolute;
+    margin-left: 1vw;
+    font-size: 1vw;
+    font-family: regular;
+    top: 2vh;
+}
+
+.texto2 {
+    position: absolute;
+    margin-left: 1vw;
+    font-size: 1vw;
+    font-family: regular;
+    top: 2vh;
+}
+
+
+
+
 
 
 
