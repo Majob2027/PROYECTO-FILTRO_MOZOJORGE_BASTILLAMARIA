@@ -16,6 +16,56 @@
     font-family:regular;
 }
 
+/* ------------------------------------------------------------------------------------ */
+/* style reportesssss */
+
+.titulo{
+    position: absolute;
+    top: 6.5vi;
+    left: 38vw;
+    font-size: 1.6vw;
+    font-family: regular;
+    text-align: center;
+    color: #ff7221;
+}
+.cuadronaranja{
+    position: absolute;
+    top: 9vi;
+    left: 5%;
+    width: 90%;
+    height: 12vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Light;
+}
+.cuadronaranja2{
+    position: absolute;
+    top: 23vi;
+    left: 5%;
+    width: 43%;
+    height: 20vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8vw;
+}
+.cuadronaranja3{
+    position: absolute;
+    top: 23vi;
+    left: 52%;
+    width: 43%;
+    height: 20vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8vw;
+}
+
 
 
 
@@ -188,14 +238,4 @@
 }
 
 
-/* ------------------------------------------------------------------------------------ */
-/* style reportesssss */
-
-.hola{
-    position: absolute;
-    top: 3vi;
-    font-size: 2vw;
-    font-family: regular;
-    text-align: center;
-}
 
