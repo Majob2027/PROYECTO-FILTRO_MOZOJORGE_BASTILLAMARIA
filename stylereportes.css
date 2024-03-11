@@ -31,15 +31,23 @@
 .cuadronaranja{
     position: absolute;
     top: 9vi;
-    left: 5%;
+    left: 5vi;
     width: 90%;
     height: 12vi;  
     margin: 20px auto;
     background-color:#ff7221; 
     border-radius: 10px;
+
+}
+.textocuadronaranja{
+    position: absolute;
     color: white;
     font-size: 1.5vw;
     font-family: Light;
+    top: 22vh;
+    left: 8%;
+
+
 }
 .cuadronaranja2{
     position: absolute;
@@ -53,6 +61,16 @@
     color: white;
     font-size: 1.8vw;
 }
+.textocuadronaranja2{
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Light;
+    top: 25vi;
+    left: 7%;
+
+
+}
 .cuadronaranja3{
     position: absolute;
     top: 23vi;
@@ -64,6 +82,16 @@
     border-radius: 10px;
     color: white;
     font-size: 1.8vw;
+}
+.textocuadronaranja3{
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: Light;
+    top: 25vi;
+    left: 54%;
+
+
 }
 
 
