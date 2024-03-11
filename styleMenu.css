@@ -147,12 +147,82 @@
 }
 
 @media only screen and (max-width: 414px) {
-    .linea{
-      top: 8vi;
+
+    .imglogo{
+        width: 5%;
+        left: 50%;
+        top: 0.3vh;
+
     }
     .imgfotoperfil{
-        top: ;
+        left: 90%;
+        width: 4%;
     }
+    .imgconfiguracion{
+        top: 4.5vh;
+        width: 1.8%;
+    }
+    .imgnotificaciones{
+        top: 4.5vh;
+        width: 1.8%;
+        left: 93%;
+    }
+    .imgañadir{
+        width: 4%;
+        left: 90%;
+        top: 7vh;
+    }
+    .textoañadir{
+        font-size: 1.7vi;
+        left: 89.5%;
+        top: 9.3vh;
+    }
+
+    .imgrecargar{
+        width: 4%;
+        left: 90%;
+        top: 11vh;
+    }
+    .textorecargar{
+        font-size: 1.7vi;
+        left: 88.7%;
+        top: 13.3vh;
+        }
+    
+
+    .imgeliminar{
+        width: 4%;
+        left: 90%;
+        top: 15vh;
+    }
+    .textoeliminar{
+        font-size: 1.7vi;
+        left: 89%;
+        top: 18vh;
+        }
+    
+    .imgreportes{
+        width: 4%;
+        left: 90%;
+        top: 20vh;
+    }
+    .textoreportes{
+        font-size: 1.7vi;
+        left: 88.7%;
+        top: 22.8vh;
+        }
+    
+    .imgayuda{
+        width: 4%;
+            left: 90%;
+            top: 25vh;  
+    }
+    .textoayuda{
+        font-size: 1.7vi;
+        left: 89.3%;
+        top: 27.3vh;
+     }
+    
 
     
   }
