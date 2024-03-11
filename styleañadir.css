@@ -497,7 +497,40 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 414px) {
+    .titulo {
+        font-size: 4vw;
+    }
 
+    .cuadronaranja,
+    .cuadronaranja2,
+    .cuadronaranja3 {
+        width: 80%;
+        font-size: 4vw;
+    }
+
+    .textocuadronaranja,
+    .textocuadronaranja2,
+    .textocuadronaranja3 {
+        font-size: 3vw;
+    }
+
+    .formulario1,
+    .formulario2 {
+        font-size: 2vw;
+    }
+
+    .cuadroblanco,
+    .cuadroblanco2 {
+        width: 15%;
+        font-size: 2vw;
+    }
+
+    .texto3,
+    .texto2 {
+        font-size: 2vw;
+    }
+}
 
 
 

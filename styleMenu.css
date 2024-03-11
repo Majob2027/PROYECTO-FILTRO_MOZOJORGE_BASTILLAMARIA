@@ -20,10 +20,11 @@
 .linea{
     position: absolute;
     width: 100%;
-    height: 0.1vh;
+    height: 0.1vi;
     background-color: rgb(154, 154, 154);
-    top: 8vh;
+    top: 5.5vi;
     margin: 0;
+    z-index: 1;
 }
 
 
@@ -144,5 +145,16 @@
     top: 1.5vh;
 
 }
+
+@media only screen and (max-width: 414px) {
+    .linea{
+      top: 8vi;
+    }
+    .imgfotoperfil{
+        top: ;
+    }
+
+    
+  }
 
 /* ---------------------------------------------- */
