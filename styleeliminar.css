@@ -200,9 +200,106 @@
     cursor: pointer;
 }
 
-@media screen {
+@media only screen and (max-width: 1024px) {
     .modalDialog2 > div {
-        height: 40vi;
+        width: 67%; 
+        left: 16%;
+        height: 75vh;
+        margin: 25% auto;
     }
     
-}
+    .close2 {
+        width: 6vw; 
+        border-radius: 1vi;
+    }
+    
+    .bienvenida {
+        top: 1vi;
+        left: 20%;
+        font-size: 4vw;
+    
+    }
+    .Datos {
+        position: absolute;
+        top: 25vi;
+        left: 43%;
+        font-size: 5vw;
+        text-align: center;
+        font-family: regular;
+        color: #ff7221;
+    
+    }
+    
+    .foto{
+        position: absolute;
+        width: 25%;
+        left: 40%;
+        top: 10vi;
+    }
+    .cuadroprincipal{
+        position: absolute;
+        top: 33vi;
+        left: 5%;
+        width: 90%;
+        height: 122vi;  
+        margin: 20px auto;
+        background-color:#ff7221; 
+        border-radius: 10px;
+    }
+    .cuadrito1{
+        top: 38vi;
+        left: 15%;
+        width: 70%;
+        height: 26vi;  
+        margin: 20px auto;
+        font-size: 5vw;
+    }
+    .cuadrito2{
+        top: 70vi;
+        left: 15%;
+        width: 70%;
+        height: 26vi;  
+        font-size: 5vw;
+    }
+    .cuadrito3{
+        top: 103vi;
+        left: 15%;
+        width: 33%;
+        height: 40vi;  
+        font-size: 3vw;
+    }
+    .subcuadrito3{
+        top: 130vi;
+        left: 20%;
+        width: 23%;
+        height: 8vi;  
+        font-size: 3vw;
+    
+    }
+    
+    .cuadrito4{
+        top: 103vi;
+        left: 52%;
+        width: 33%;
+        height: 40vi;  
+        font-size: 3vw;
+        
+    }
+    .subcuadrito4{
+        top: 110vi;
+        left: 58%;
+        width: 22%;
+        height: 6vi;  
+        font-size: 2.8vw;
+    }
+    .subcuadrito5{
+    
+        top: 145vi;
+        left: 37%;
+        width: 30%;
+        height: 6.5vi;  
+        font-size: 5vw;
+    }
+        
+    }
+    

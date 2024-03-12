@@ -154,88 +154,96 @@
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 1024px) {
     .linea{
         background-color:transparent;
     }
 
     .imglogo{
-        width: 8.5%;
-        left: 47%;
-        top: 1vh;
+        width: 15%;
+        left: 50%;
+        top: 2vh;
 
     }
     
     .imgfotoperfil{
-        top:1vh ;
-        left: 89%;
-        width: 6%;
+        top:3vh ;
+        left: 85%;
+        width: 12%;
     }
     .imgconfiguracion{
-        top: 5.5vh;
-        width: 1.8%;
+        top: 10.5vh;
+        width: 4%;
+        left: 85%;
     }
     .imgnotificaciones{
-        top: 5.5vh;
-        width: 1.8%;
+        top: 10.5vh;
+        width: 4%;
         left: 93%;
     }
     .imgañadir{
-        width: 4%;
-        left: 90%;
-        top: 11vh;
+        width: 9%;
+        left: 87%;
+        top: 20vh;
     }
     .textoañadir{
-        font-size: 1.7vi;
-        left: 89.5%;
-        top: 13.5vh;
+        font-size: 3vi;
+        left: 87.2%;
+        top: 26vh;
     }
 
     .imgrecargar{
-        width: 4%;
-        left: 90%;
-        top: 16vh;
+        width: 9%;
+        left: 87%;
+        top: 34vh;
     }
     .textorecargar{
-        font-size: 1.7vi;
-        left: 88.7%;
-        top: 18.3vh;
+        font-size: 3vi;
+        left: 85.5%;
+        top: 39vh;
         }
     
 
     .imgeliminar{
-        width: 4%;
-        left: 90%;
-        top: 21vh;
+        width: 9%;
+        left: 87%;
+        top: 47vh;
     }
     .textoeliminar{
-        font-size: 1.7vi;
-        left: 89%;
-        top: 25vh;
+        font-size: 3vi;
+        left: 86.5%;
+        top: 53vh;
         }
     
     .imgreportes{
-        width: 4%;
-        left: 90%;
-        top: 27vh;
+        width: 9%;
+        left: 87%;
+        top: 61vh;
     }
     .textoreportes{
-        font-size: 1.7vi;
-        left: 88.7%;
-        top: 30vh;
+        font-size: 3vi;
+        left: 86%;
+        top: 67vh;
         }
     
     .imgayuda{
-        width: 4%;
-            left: 90%;
-            top: 33vh;  
+        width: 9%;
+            left: 87%;
+            top: 75vh;  
     }
     .textoayuda{
-        font-size: 1.7vi;
-        left: 89.3%;
-        top: 35vh;
+        font-size: 3vi;
+        left: 87.3%;
+        top: 81vh;
      }
-    
+     .modalDialog  div {
+   
+        height: 0vh;
+
+    }
+    .modalDialog2 > div {
+        height: 40vi;
+    }
 
     
   }
