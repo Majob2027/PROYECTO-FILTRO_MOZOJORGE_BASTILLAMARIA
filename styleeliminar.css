@@ -89,6 +89,7 @@
    height: 3vi;
    background-color: #ff7221;
    border-color: #ff7221;
+   cursor: pointer;
 }
 .eliminar{
     position: absolute;
@@ -96,6 +97,7 @@
     left: 17vi;
     top: 15.5vi;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -382,6 +384,71 @@
         height: 6.5vi;  
         font-size: 5vw;
     }
+    /* ------------------------------------------------------------------------------------ */
+/* style eliminar  */
+
+.titulo {
+    position: absolute;
+    top: 32.8vi;
+    left: 20vw;
+    font-size: 4vw;
+    font-family: regular;
+    text-align: center;
+    color: black;
+}
+
+
+.cuadronaranja {
+
+    top: 50.3vi;
+    left: 15vi;
+    padding: 2vw;
+    font-size: 2vw;
+    width: 60%;
+    height: 100vi; 
+}
+.cuadritoblanco {
+    width: 45%;
+    height: 90.5vi;
+    top: 55vi;
+    left: 24.5vi;
+}
+
+
+.nombreindicador{
+    font-size: 5vi;
+    top: 5vi;
+    left: 3vi;
+
+}
+.input{
+    left: 3vi;
+    top: 17vi;
+    width: 32vi;
+    height: 5vi;
+}
+
+.checkbox {
+    top: 29vi;
+    left: 4vi;
+    width: 30vw;
+    font-size: 4vi;
+}
+.botoneliminar {
+   top: 60vi;
+   left: 7vi;
+   width: 30vi;
+   height: 6vi;
+  
+}
+.eliminar{
+    
+    font-size: 5vi;
+    left: 15vi;
+    top: 60vi;
+    color: black;
+  
+}
         
     }
     
