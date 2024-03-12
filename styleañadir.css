@@ -74,7 +74,7 @@
     color: black;
 }
 .textooo123{
-    font-size: 2vi;
+    font-size: 1vi;
     color: white;
     margin-left: 25%;
     margin-top: 3%;
@@ -541,82 +541,82 @@
         top: vi;
     }
     .cuadro1{
-        top: 24vi;
+        top: 35vi;
         left: 5%;
-        width: 80%;
-        height: 70vi;  
+        width: 77%;
+        height: 140vi;  
 
     }
     .recuadro1
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 7vi;
+        top: 15vi;
     }
     .recuadro2
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 14vi;
+        top: 30vi;
     }
     .recuadro3
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 21.1vi;
+        top: 45vi;
     }
     .recuadro3 select{
-        width: 13vw;
-        height: 2.5vi;
+        width: 20vw;
+        height: 4vi;
         border-color: #adadad;
-        font-size: 1.8vi;
+        font-size: 3vi;
     }
     .recuadro4
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 28.3vi;
+        top: 60vi;
     }
     .recuadro5
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 35.5vi;
+        top: 75vi;
     }
     .recuadro6
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 43vi;
+        top: 90vi;
     }
     .recuadro7
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 50vi;
+        top: 105vi;
     }
     .recuadro8
     {
         width: 90%;
-        height: 6vi;
+        height: 13vi;
         left: 5%;
-        top: 57vi;
+        top: 120vi;
     }
     .recuadro8 select{
-        width: 13vw;
-        height: 2.5vi;
+        width: 23vw;
+        height: 5vi;
         border-color: #adadad;
-        font-size: 1.8vi;
+        font-size: 3vi;
     }
     .cuadro9{
-        top: 65vi;
+        top: 135vi;
         left: 40%;
         font-size: 1.2vi;
     }
@@ -639,7 +639,7 @@
     
     }
     .Datos {
-        position: absolute;
+
         top: 25vi;
         left: 43%;
         font-size: 5vw;
@@ -650,20 +650,15 @@
     }
     
     .foto{
-        position: absolute;
         width: 25%;
         left: 40%;
         top: 10vi;
     }
     .cuadroprincipal{
-        position: absolute;
         top: 33vi;
-        left: 5%;
+        left: 2%;
         width: 90%;
-        height: 122vi;  
-        margin: 20px auto;
-        background-color:#ff7221; 
-        border-radius: 10px;
+        height: 100vi;  
     }
     .cuadrito1{
         top: 38vi;
@@ -719,35 +714,106 @@
         height: 6.5vi;  
         font-size: 5vw;
     }
-    }
+    
     .headcuadro{
-        font-size: 2vi;
+        font-size: 8vi;
     }
     .recuadro1 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro1 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .recuadro2 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro2 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .recuadro3 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
     }
     .recuadro4 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro4 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .recuadro5 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro5 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .recuadro6 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro6 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .recuadro7 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro7 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .recuadro8 div{
-        font-size: 1.8vw;
+        font-size: 4vw;
+    }
+    .recuadro8 input {
+        width: 50vi;
+        height: 5vi;
+        font-size: 3vi;
     }
     .cuadro9 {
-        font-size: 5vi;
+        font-size: 10vi;
+    }
+    .textooo123{
+        font-size: 4vi;
+        margin-left: 4vi;
+        margin-top: 3vi;
+        text-align: center;
+
+    }
+    .cuadro9 a{
+        font-size: 3vw;
+        top: 0vi;
+ 
+        background-color: transparent;
+    }
+    .modalDialog > div {
+        width: 60%; 
+        left: 20.5%;
+        margin: 60% auto;
+        border-radius: 10px;
+        height: 10vh;
+        background: #fff;
+        text-align: center;
+    }
+    
+    
+    .close {
+        background: #606061;
+        color: #FFFFFF;
+        position: absolute;
+        right: 0vw; 
+        text-align: center;
+        top: 0vh; 
+        width: 4vw; 
+        text-decoration: none;
+    }
+    
     }
     
