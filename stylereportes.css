@@ -184,7 +184,7 @@
     top: 1vi;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 430px) {
     .titulo {
       top: 10vi;
     }

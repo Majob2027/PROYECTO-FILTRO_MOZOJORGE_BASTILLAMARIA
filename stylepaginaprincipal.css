@@ -801,15 +801,16 @@
 
 @media screen and (max-width: 1024px){
     .tituloindicadores {
-        left: 35vi;
-        top: 25vi;
-        font-size: 4vi;
+        left: 29vi;
+        top: 23vi;
+        font-size: 5vi;
         color: #ff7221;
     }
     .texto1 {
-        left: 10vi;
+        left: 25vi;
         top: 32vi;
-        font-size: 2.3vi;
+        font-size: 2.5vi;
+        text-align: center;
     }
 
 
@@ -834,7 +835,7 @@
 
 }
 .Datos {
-    position: absolute;
+
     top: 25vi;
     left: 43%;
     font-size: 5vw;
@@ -845,20 +846,18 @@
 }
 
 .foto{
-    position: absolute;
     width: 25%;
     left: 40%;
     top: 10vi;
 }
 .cuadroprincipal{
-    position: absolute;
+
     top: 33vi;
     left: 5%;
     width: 90%;
     height: 122vi;  
-    margin: 20px auto;
     background-color:#ff7221; 
-    border-radius: 10px;
+
 }
 .cuadrito1{
     top: 38vi;
@@ -914,5 +913,556 @@
     height: 6.5vi;  
     font-size: 5vw;
 }
+/*--- style pagina ---*/
+.cuadro1 {
+    left: 18%;
+    top: 40vi ;
+    width: 60%;   
+    height: 22vi;
+    background-color:#ffdac2;
+    padding: 1vw; 
+    border: 3px solid #ff7221;
+    border-radius: 20px;
+}
+
+
+.cuadro1 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+.cuadro1  img{
+
+    top: 0;
+    left: 84%;
+    width: 4.2vw;
+}
+
+.hola1{
+   
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+.lineascuadro1{
+
+    top: 19.3vi;
+    left: 95%;
+    width: 2vi;
+  
+
+}
+.interes{
+ 
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.baja{
+
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro1{
+ 
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro1{
+  
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metagil1{
+
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion1{
+    
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+
+
+
+
+/* Cuadro2 */
+
+.cuadro2 {
+    left: 18%;
+    top: 67vi ;
+    width: 60%;   
+    height: 22vi;
+    background-color:#ffdac2;
+    padding: 1vw; 
+    border: 3px solid #ff7221;
+    border-radius: 20px;
+}
+
+
+.cuadro2 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+
+.cuadro2  img{
+    
+    top: 0;
+    left: 84.6%;
+    width: 3.5vw;
+}
+
+.hola2{
+
+    top: 1vi;
+    left: 93.9%;
+    font-size: 1vw;
+}
+.lineascuadro2{
+  
+    top: 23.5vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+    
+
+}
+.diseño{
+   
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.baja2{
+
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro2{
+
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro2{
+ 
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metagil2{
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion2{
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+
+/* Cuadro3 */
+.cuadro3 {
+    left: 18%;
+    top: 94vi ;
+    width: 60%;   
+    height: 22vi;
+    background-color:#ffdac2;
+    border: 3px solid #ff7221;
+}
+}
+
+
+.cuadro3 p {
+    font-size: 1vw; 
+    color: #000000;
+    margin: 0; 
+}
+
+.cuadro3  img{
+ 
+    top: 0;
+    left: 84.6%;
+    width: 3.3vw;
+}
+
+.hola3{
+
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+
+.lineascuadro3{
+    top: 28vi;
+    left: 95%;
+    width: 2vi;
+
+}
+.se{
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.media1{
+    top: 1vi;
+    left: 30.1%;
+    font-size: 1vw;
+
+}
+.fechaicuadro3{
+
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro3{
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metfibo{
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion3{
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+/* cuadro4 */
+.cuadro4 {
+    left: 18%;
+    top: 121vi ;
+    width: 60%;   
+    height: 22vi;
+    background-color:#ffdac2;
+    padding: 1vw; 
+    border: 3px solid #ff7221;
+    border-radius: 20px;
+}
+
+
+.cuadro4 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+.cuadro4  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.5vw;
+}
+
+.hola4{
+    position: absolute;
+    top: 1vi;
+    left: 93.8%;
+    font-size: 1vw;
+}
+
+.lineascuadro4{
+    position: absolute;
+    top: 32.5vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+.ventas{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.media2{
+    position: absolute;
+    top: 1vi;
+    left: 30.1%;
+    font-size: 1vw;
+
+}
+.fechaicuadro4{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro4{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.NA{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion4{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+
+
+/* Cuadro5 */
+.cuadro5 {
+    left: 18%;
+    top: 148vi ;
+    width: 60%;   
+    height: 22vi;
+    background-color:#ffdac2;
+    padding: 1vw; 
+    border: 3px solid #ff7221;
+    border-radius: 20px;
+}
+
+
+.cuadro5 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+.cuadro5  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.6vw;
+}
+
+.hola5{
+    position: absolute;
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+
+.lineascuadro5{
+    position: absolute;
+    top: 37vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+
+.impacto1{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.alta1{
+    position: absolute;
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro5{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro5{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metexpo1{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion5{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+
+
+
+/* Cuadro6 */
+
+
+.cuadro6 {
+    left: 18%;
+    top: 175vi ;
+    width: 60%;   
+    height: 22vi;
+    background-color:#ffdac2;
+    padding: 1vw; 
+    border: 3px solid #ff7221;
+    border-radius: 20px;
+}
+
+
+.cuadro6 p {
+    font-size: 1vw; 
+    color: #333;
+    margin: 0; 
+}
+
+.cuadro6  img{
+    position: absolute;
+    top: 0;
+    left: 84.6%;
+    width: 3.6vw;
+}
+
+.hola6{
+    position: absolute;
+    top: 1vi;
+    left: 93.3%;
+    font-size: 1vw;
+}
+
+.lineascuadro6{
+    position: absolute;
+    top: 41.3vi;
+    left: 95%;
+    width: 2vi;
+    cursor: pointer;
+
+}
+
+.impacto2{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.alta2{
+    position: absolute;
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro6{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro6{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metexpo2{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion6{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+
+.cuadro7 {
+    left: 35%;
+    top: 205vi ;
+    width: 30%;   
+    height: 4vi;
+}
+
+
+.cuadro7 p {
+    font-family: Light;
+    font-size: 2.9vw; 
+    color: #ffffff;
+    margin: 0; 
+    text-align: center;
+    cursor: pointer;
+}
+/* ---------------------------------------------- */
+.indicador{
+    color: black;
+    font-size: 0VW;
+}
+.descripcion{
+    font-size: 0VW;
+
+}
+.categoria{
+
+    font-size: 0VW;
+}
+.inicio{
+
+    font-size: 0VW;
+
+}
+.terminacion{
+    font-size: 0VW;
+}
+.formula{
+    font-size: 0VW;
+}
+.frecuencia{
+    font-size: 0VW;
+
+}
+.cumplimiento{
+
+    font-size: 0VW;
+
+}
+.area{
+    font-size: 0VW;
+ }
+ .lineascuadro1{
+    width: 0%;
+ }
+ .lineascuadro2{
+    width: 0%;
+ }
+ .lineascuadro3{
+    width: 0%;
+ }
+ .lineascuadro4{
+    width: 0%;
+ }
+ .lineascuadro5{
+    width: 0%;
+ }
+ .lineascuadro6{
+    width: 0%;
+ }
+
+
+/* Cuadro1 */
+
+
     
 }
