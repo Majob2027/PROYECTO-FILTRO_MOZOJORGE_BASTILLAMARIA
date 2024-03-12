@@ -409,73 +409,96 @@
 
 @media screen and (max-width: 1024px) {
     .titulo{
-        left: 29vi;
-        top: 14vi;
-        font-size: 2.5vi;
+        left: 20vi;
+        top: 25vi;
+        font-size: 4vi;
     }
     .cuadronaranja{
         width: 66vi;
-        height: 20vi;
-        left: 11%;
-        top: 23vi;
+        height: 50vi;
+        left: 12%;
+        top: 35vi;
         font-size: 3vi;
     }
     .cuadronaranja2{
         width: 66vi;
-        height: 22vi;
-        left: 11%;
-        top: 52vi;
+        height: 50vi;
+        left: 12%;
+        top: 90vi;
     }
     .cuadronaranja3{
         width: 66vi;
-        left: 11%;
-        top: 84vi;
-        height: 22vi;
+        left: 12%;
+        top: 148vi;
+        height: 50vi;
     }
     .textocuadronaranja2{
-        left: 27vi;
-        top: 56vi;
-        font-size: 2vi;
-        left: 20vi;
+        left: 15vi;
+        top: 100vi;
+        font-size: 3vi;
 
     }
+    .textocuadronaranja{
+        font-size: 3.5vi;
+    }
     .subrecuadro1{
-        left: 28vi;
-        top: 61vi;
+        left:18vi;
+        top: 105vi;
+        height: 12vi;
+        width: 60vi;
 
     }
     .formulario1{
         left: 0vi;
+        height: 4vi;
+        width: 40vi;
+        font-size: 3vi;
+        top: 5vi;
 
     }
     .subrecuadro2{
-        left: 28vi;
-        top: 68vi;
+        left: 18vi;
+        top: 120vi;
+        height: 12vi;
+        width: 60vi;
 
     }
     .formulario2{
         left: 0vi;
+        height: 4vi;
+        width: 40vi;
+        font-size: 3vi;
+        top: 5vi;
+
+    }
+    .texto2{
+        font-size: 4vi;
+
+    }
+    .texto3{
+        font-size: 4vi;
 
     }
 
     .textocuadronaranja3{
-        top: 88vi;
-        left: 20vi;
-        font-size: 2vi;
+        top: 158vi;
+        left: 15vi;
+        font-size: 3vi;
 
     }
     .cuadroblanco{
-        left: 40vi;
-        top: 75vi;
-        height: 2vi;
-        font-size: 1.6vi;
+        left: 30vi;
+        top: 135vi;
+        height: 5vi;
+        width: 30vi;
+        font-size: 4vi;
     }
     .cuadroblanco2{
-        top: 93vi;
-        left: 21vi;
-        height: 16vi;
-        width: 50vi;
-        font-size: 1.4vi;
+        top: 165vi;
+        left: 17vi;
+        height: 35vi;
+        width: 60vi;
+        font-size: 3vi;
 
     }
     .modalDialog2 > div {
