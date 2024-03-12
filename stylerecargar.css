@@ -207,5 +207,13 @@
     .modalDialog2 > div {
         height: 40vi;
     }
+    .modalDialog  div {
+   
+        height: 0vh;
+
+    }
+    .modalDialog2 > div {
+        height: 40vi;
+    }
     
 }
