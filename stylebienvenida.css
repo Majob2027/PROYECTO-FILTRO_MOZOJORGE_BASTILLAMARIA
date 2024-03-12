@@ -1,0 +1,71 @@
+@font-face {
+    font-family: regularJ;
+    src: url('./fuentes/Myriad\ Pro\ Regular.ttf');
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url('Imagenes/fondo.png')no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
+    font-family: regularJ;
+} 
+.cuadroblanco {
+    display: flex;
+    padding:5vw 5vh;
+    box-shadow: 0 0 10% rgba(0, 0, 0, 0.2);
+    background: white;
+   position: absolute;
+    border-radius: 5vw;
+    text-align: center;
+    width: 40vw;
+    height: 35vh;
+    top: 10vw;
+    left: 30vw;
+    opacity: 1;
+    animation: aparecer 2s;  
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.loguito2 {
+    position: absolute; 
+    top: 2vw;
+    left: 19.5vw;
+}
+.sub1 {
+    position: absolute;
+    top: 9vw;
+    left: 16.5vw;
+}
+#fotopedrito {
+    width: 5vw;
+    height: auto;
+}
+.fotopedrito {
+    position: absolute;
+    top: 12vw;
+    left: 19.5vw;
+    border-radius: 50vw;
+}
+.sub2 {
+    position: absolute;
+    top: 17.5vw;
+    left: 15vw;
+    text-align: center;
+}
+.pie2 {
+    position: absolute;
+    color: slategrey;
+    top: 21vw;
+    left: 18vw;
+}
+
