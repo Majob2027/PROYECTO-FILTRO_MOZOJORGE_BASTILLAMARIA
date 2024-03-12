@@ -15,7 +15,86 @@
     height: 56.25%;
     font-family:regular;
 }
+.textonegro {
+    position: absolute;
+    top: 5vw;
+    left: 42.5vw;
+    justify-content: center;
+}
+/* ------------------------------------------------------------------------------------ */
+/* style eliminar  */
 
+.titulo {
+    position: absolute;
+    top: 5.8vi;
+    left: 38vw;
+    font-size: 1.6vw;
+    font-family: regular;
+    text-align: center;
+    color: black;
+}
+
+
+.cuadronaranja {
+
+    position: absolute;
+    top: 10.3vi;
+    left: 20vi;
+    padding: 2vw;
+    font-size: 1.5vw;
+    width: 50%;
+    height: 22vi; 
+    background-color: #ff7221; 
+}
+.cuadritoblanco {
+    position: absolute;
+    width: 45%;
+    height: 19.5vi;
+    top: 13vw;
+    left: 24.5vi;
+    background-color: white;
+}
+.input-modulo {
+    display: flex;
+    flex-direction: column; 
+    position: left;
+}
+input {
+    position: absolute;
+    top: 3vw;
+    left: 2vw;
+    width: 25vw;
+    padding: 1vh 0.5vw;
+    border-radius: 0.5vw;
+    margin-bottom: 1vw;
+    font-size: 2vh; 
+}
+label {
+    position: absolute;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15vw;
+    top: 1.5vw;
+    left: 3vw; 
+}
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5vw;
+    left: -0.5vw;
+    width: 30vw;
+}
+.botoneliminar {
+    position: absolute;
+    top: 12vw;
+    left: 10vw;
+    width: 20vw;
+}
+#botoneliminar {
+    background-color: #ff7221;
+    width: 20vw;
+}
 
 /* ------------------------------------------------------------------------------------ */
 /* popup2 */

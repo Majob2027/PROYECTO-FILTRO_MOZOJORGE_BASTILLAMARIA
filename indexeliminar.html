@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleMenu.css">
-    <link rel="icon" href="imagenes/logo.png">
+    <link rel="stylesheet" href="stylepaginaprincipal.css">
     <link rel="stylesheet" href="styleeliminar.css">
+    <link rel="icon" href="imagenes/logo.png">
     <title>Eliminar</title>
 </head>
 <body class="body">
-
-
-
 
    <div class="Menuprincipal">
       <div class="linea"></div>
@@ -32,14 +30,40 @@
      <nav>
         <a href="/indexreportes.html" class="textoreportes"> Reportar</a>
      </nav>
-     <img src="imagenes/ayuda.png" alt="imagenayuda" class="imgayuda"></div>
+     <img src="imagenes/ayuda.png" alt="imagenayuda" class="imgayuda">
      <nav>
         <a href="/indexayuda.html" class="textoayuda">Ayuda</a>
      </nav>
      <img src="imagenes/configuracion.png" alt="imagenconfiguracion" class="imgconfiguracion">
      <img src="imagenes/notificaciones.png" alt="imagennotificaciones" class="imgnotificaciones">
-     <a href="#openModal1"><img src="/imagenes/fotoperfil.png" alt="imgperfil" class="imgfotoperfil"></a></div>
+     <a href="#openModal1"><img src="/imagenes/fotoperfil.png" alt="imgperfil" class="imgfotoperfil"></a>
 </div>
+
+<!-- Modulo reportes -->
+<div>
+   <div class="titulo"> Bienvenido al módulo de Eliminar </div>
+   <div class="cuadronaranja"><div class="textocuadronaranja"> </div> </div>
+      <div class="cuadritoblanco">
+         <form>
+            <div class="input-modulo">
+            <div class="nombremodulo">
+               <label for="nombremodulo">Nombre del módulo:</label>
+               <input type="text" name="Nombremodulo" id="nombremodulo">
+               <div class="checkbox">
+               <input type="checkbox" id="conocimiento" name="conocimiento" value="aceptado">
+               <label for="conocimiento">Tengo conocimiento de la empresa acerca de la eliminación de módulos</label>
+               </div>
+               <div class="botoneliminar">
+               <input class="boton" type="submit" value="Eliminar el módulo" id="botoneliminar">
+               </div>
+            </div> 
+      </div>
+         </form>
+   </div>
+   
+   </div>
+   
+   <!-- -------------------------------------------------------- -->
 <!-- popup perfil -->
 <div id="openModal1" class="modalDialog2">
    <div>
@@ -55,12 +79,11 @@
       <div class="cuadrito4"> Contraseña : <br> ****** <br><br><br> Eventos: <br> Campusmusic567 <br> sparkle <br> convecion empresarios#2 </p></div>
       <div class="subcuadrito4">Cambiar contraseña</div>
       <a href="IndexInicio.html" id="logout" class="subcuadrito5">Log out</a>
-      
+   </div>
+</div>
 
-   </div> 
+<!-- Modulo reportes -->
 
-
-
-
+<!-- -------------------------------------------------------- -->
 </body>
 </html>
