@@ -28,7 +28,7 @@
     position: absolute;
     color: black;
     font-size: 1.3vw;
-    font-family: Light;
+    font-family: regular;
     top: 11vi;
     left: 26.3%;
 }
@@ -123,7 +123,7 @@
     width: 4.2vw;
 }
 
-.cuadro1 div{
+.hola1{
     position: absolute;
     top: 1vi;
     left: 93.3%;
@@ -136,6 +136,44 @@
     width: 2vi;
     cursor: pointer;
 
+}
+.interes{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.baja{
+    position: absolute;
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro1{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro1{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metagil1{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion1{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
 }
 
 
@@ -169,7 +207,7 @@
     width: 3.5vw;
 }
 
-.cuadro2 div{
+.hola2{
     position: absolute;
     top: 1vi;
     left: 93.9%;
@@ -183,6 +221,44 @@
     cursor: pointer;
     
 
+}
+.diseño{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.baja2{
+    position: absolute;
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro2{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro2{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metagil2{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion2{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
 }
 
 /* Cuadro3 */
@@ -212,7 +288,7 @@
     width: 3.3vw;
 }
 
-.cuadro3 div{
+.hola3{
     position: absolute;
     top: 1vi;
     left: 93.3%;
@@ -226,6 +302,44 @@
     width: 2vi;
     cursor: pointer;
 
+}
+.se{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.media1{
+    position: absolute;
+    top: 1vi;
+    left: 30.1%;
+    font-size: 1vw;
+
+}
+.fechaicuadro3{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro3{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metfibo{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion3{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
 }
 /* cuadro4 */
 .cuadro4 {
@@ -253,7 +367,7 @@
     width: 3.5vw;
 }
 
-.cuadro4 div{
+.hola4{
     position: absolute;
     top: 1vi;
     left: 93.8%;
@@ -268,6 +382,45 @@
     cursor: pointer;
 
 }
+.ventas{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.media2{
+    position: absolute;
+    top: 1vi;
+    left: 30.1%;
+    font-size: 1vw;
+
+}
+.fechaicuadro4{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro4{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.NA{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion4{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
+}
+
 
 /* Cuadro5 */
 .cuadro5 {
@@ -295,7 +448,7 @@
     width: 3.6vw;
 }
 
-.cuadro5 div{
+.hola5{
     position: absolute;
     top: 1vi;
     left: 93.3%;
@@ -309,6 +462,45 @@
     width: 2vi;
     cursor: pointer;
 
+}
+
+.impacto1{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.alta1{
+    position: absolute;
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro5{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro5{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metexpo1{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion5{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
 }
 
 
@@ -342,7 +534,7 @@
     width: 3.6vw;
 }
 
-.cuadro6 div{
+.hola6{
     position: absolute;
     top: 1vi;
     left: 93.3%;
@@ -356,6 +548,45 @@
     width: 2vi;
     cursor: pointer;
 
+}
+
+.impacto2{
+    position: absolute;
+    top: 1vi;
+    left: 14%;
+    font-size: 1vw;
+}
+.alta2{
+    position: absolute;
+    top: 1vi;
+    left: 30.5%;
+    font-size: 1vw;
+
+}
+.fechaicuadro6{
+    position: absolute;
+    top: 1vi;
+    left: 40%;
+    font-size: 1vw;
+
+}
+.fechafcuadro6{
+    position: absolute;
+    top: 1vi;
+    left: 52.5%;
+    font-size: 1vw;
+}
+.metexpo2{
+    position: absolute;
+    top: 1vi;
+    left: 64.2%;
+    font-size: 1vw;
+}
+.fraccion6{
+    position: absolute;
+    top: 1vi;
+    left: 73.9%;
+    font-size: 1vw;
 }
 
 .cuadro7 {
@@ -379,6 +610,8 @@
     text-align: center;
     cursor: pointer;
 }
+
+
 /* ------------------------------------------------------------------------------------ */
 /* popup2 */
 
@@ -548,3 +781,15 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 414px){
+    .tituloindicadores {
+        left: 37vi;
+        top: 15vi;
+    }
+    .texto1 {
+        left: 25vi;
+        top: 20vi;
+    }
+    
+}

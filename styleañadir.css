@@ -52,7 +52,7 @@
 }
 
 /* Cuadros secundarios */
-
+/* Cuadro 1 */
 .recuadro1 {
     position: absolute;
     top: 3vi;
@@ -66,9 +66,14 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
+}
+.textooo123{
+    font-size: 1vi;
+    color: white;
+    margin-left: 25%;
 }
 
 .recuadro1 input{
@@ -78,7 +83,10 @@
     height: 1.1vi;
     top: 33%;
     left: 5%;
+    border-color: #dfdfdf;
 }
+
+/* Cuadro 2 */
 .recuadro2 {
     position: absolute;
     top: 7vi;
@@ -92,7 +100,7 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
@@ -101,11 +109,13 @@
     font-size: 1vw;
     font-family: 'Regular', sans-serif;
     height: 1.1vi;
-    width: 25vw;
+    width: 25vi;
     top: 33%;
     left: 5%;
     border-color: #dfdfdf;
+
 }
+/* Cuadro 3 */
 
 .recuadro3 {
     position: absolute;
@@ -120,16 +130,19 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
 .recuadro3 select{
     position: absolute;
+    font-size: 1vi;
     width: 8vw;
-    height: 1vi;
+    height: 1.5vi;
     border-color: #adadad;
 }
+
+/* Cuadro 4 */
 
 .recuadro4 {
     position: absolute;
@@ -144,7 +157,7 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
@@ -157,6 +170,11 @@
     left: 5%;
     border-color: #dfdfdf;
 }
+
+
+/* Cuadro 5 */
+
+
 .recuadro5 {
     position: absolute;
     top: 19vi;
@@ -170,7 +188,7 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
@@ -183,6 +201,7 @@
     left: 5%;
     border-color: #dfdfdf;
 }
+/* Cuadro 6 */
 .recuadro6 {
     position: absolute;
     top: 23vi;
@@ -196,7 +215,7 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
@@ -222,7 +241,7 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
@@ -248,14 +267,15 @@
     position: absolute;
     font-size: 0.95vw;
     font-family: regular;
-    top: 0.5vi;
+    top: 0.3vi;
     left: 2%;
     color: black;
 }
 .recuadro8 select{
     position: absolute;
+    font-size: 1vi;
     width: 8vw;
-    height: 1vi;
+    height: 1.5vi;
     border-color: #adadad;
 }
 .cuadro9 {
@@ -302,15 +322,16 @@
 }
 
 .modalDialog > div {
-    text-align: center;
     width: 40%; 
     position: absolute;
     left: 31.5%;
-    margin: 10% auto;
+    margin: 5% auto;
     border-radius: 10px;
-    height: 10vh;
+    height: 25vh;
     background: #fff;
+    text-align: center;
 }
+
 
 .close {
     background: #606061;
@@ -495,7 +516,131 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 414px) {
+    .bienvenida {
+        top: vi;
+    }
+    .cuadro1{
+        top: 16vi;
+        left: 5%;
+        width: 80%;
+        height: 70vi;  
 
+    }
+    .recuadro1
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 7vi;
+    }
+    .recuadro2
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 14vi;
+    }
+    .recuadro3
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 21.1vi;
+    }
+    .recuadro3 select{
+        width: 13vw;
+        height: 2.5vi;
+        border-color: #adadad;
+        font-size: 1.5vi;
+    }
+    .recuadro4
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 28.3vi;
+    }
+    .recuadro5
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 35.5vi;
+    }
+    .recuadro6
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 43vi;
+    }
+    .recuadro7
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 50vi;
+    }
+    .recuadro8
+    {
+        width: 90%;
+        height: 6vi;
+        left: 5%;
+        top: 57vi;
+    }
+    .recuadro8 select{
+        width: 13vw;
+        height: 2.5vi;
+        border-color: #adadad;
+        font-size: 1.5vi;
+    }
+    .cuadro9{
+        top: 65vi;
+        left: 40%;
+        font-size: 1.2vi;
+    }
+    .modalDialog  div {
+   
+        height: 0vh;
+
+    }
+    .modalDialog2 > div {
+        height: 40vi;
+    }
+    .headcuadro{
+        font-size: 2vi;
+    }
+    .recuadro1 div{
+        font-size: 1.5vw;
+    }
+    .recuadro2 div{
+        font-size: 1.5vw;
+    }
+    .recuadro3 div{
+        font-size: 1.5vw;
+    }
+    .recuadro4 div{
+        font-size: 1.5vw;
+    }
+    .recuadro5 div{
+        font-size: 1.5vw;
+    }
+    .recuadro6 div{
+        font-size: 1.5vw;
+    }
+    .recuadro7 div{
+        font-size: 1.5vw;
+    }
+    .recuadro8 div{
+        font-size: 1.5vw;
+    }
+    .cuadro9 {
+        font-size: 1vi;
+    }
+    }
+
+    
 
 
 

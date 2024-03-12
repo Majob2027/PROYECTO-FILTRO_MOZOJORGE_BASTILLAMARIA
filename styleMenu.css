@@ -7,6 +7,14 @@
     src: url(/fuentes/regular.OTF);
 }
 
+
+
+
+
+
+
+
+
 /* -------------------------------- */
 /* MENU PRINCIPAL */
 
@@ -16,6 +24,15 @@
     width: 100%;
     height: 56.25%;
     font-family:regular;
+}
+.linea{
+    position: absolute;
+    width: 100%;
+    height: 0.1vi;
+    background-color: rgb(154, 154, 154);
+    top: 4.6vi;
+    margin: 0;
+    z-index: 1;
 }
 
 
@@ -136,5 +153,91 @@
     top: 1.5vh;
 
 }
+
+@media only screen and (max-width: 414px) {
+    .linea{
+        background-color:transparent;
+    }
+
+    .imglogo{
+        width: 8.5%;
+        left: 47%;
+        top: 1vh;
+
+    }
+    
+    .imgfotoperfil{
+        top:1vh ;
+        left: 89%;
+        width: 6%;
+    }
+    .imgconfiguracion{
+        top: 5.5vh;
+        width: 1.8%;
+    }
+    .imgnotificaciones{
+        top: 5.5vh;
+        width: 1.8%;
+        left: 93%;
+    }
+    .imgañadir{
+        width: 4%;
+        left: 90%;
+        top: 11vh;
+    }
+    .textoañadir{
+        font-size: 1.7vi;
+        left: 89.5%;
+        top: 13.5vh;
+    }
+
+    .imgrecargar{
+        width: 4%;
+        left: 90%;
+        top: 16vh;
+    }
+    .textorecargar{
+        font-size: 1.7vi;
+        left: 88.7%;
+        top: 18.3vh;
+        }
+    
+
+    .imgeliminar{
+        width: 4%;
+        left: 90%;
+        top: 21vh;
+    }
+    .textoeliminar{
+        font-size: 1.7vi;
+        left: 89%;
+        top: 25vh;
+        }
+    
+    .imgreportes{
+        width: 4%;
+        left: 90%;
+        top: 27vh;
+    }
+    .textoreportes{
+        font-size: 1.7vi;
+        left: 88.7%;
+        top: 30vh;
+        }
+    
+    .imgayuda{
+        width: 4%;
+            left: 90%;
+            top: 33vh;  
+    }
+    .textoayuda{
+        font-size: 1.7vi;
+        left: 89.3%;
+        top: 35vh;
+     }
+    
+
+    
+  }
 
 /* ---------------------------------------------- */
