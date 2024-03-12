@@ -16,7 +16,119 @@
     font-family:regular;
 }
 
+/* -------------------------------- */
+/* Pagina ayuda  */
 
+.cuadroprincipal1{
+    position: absolute;
+    top: 8vi;
+    left: 5%;
+    width: 43%;
+    height: 35vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+}
+.cuadroprincipal1 p{
+    color: #ffffff;
+    font-size: regular;
+    margin-left: 8%;
+    margin-top: 18%;
+    font-size: 1.5vi;
+}
+.cuadroprincipal2{
+    position: absolute;
+    top: 8vi;
+    left: 50%;
+    width: 44%;
+    height: 35vi;  
+    margin: 20px auto;
+    background-color:#ff7221; 
+    border-radius: 10px;
+}
+.cuadroprincipal2 p{
+    color: #ffffff;
+    font-size: regular;
+    margin-left: 8%;
+    margin-top: 18%;
+    font-size: 1.5vi;
+}
+
+
+.subcuadroblanco1{
+    position: absolute;
+    top: 1vi;
+    left: 7%;
+    width: 60%;
+    height: 3.5vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+
+}
+.subcuadroblanco1 p{
+    font-size: 1.7vi;
+    margin-top: 3%;
+    color: black;
+}
+
+
+.subcuadroblanco2{
+    position: absolute;
+    top: 10vi;
+    left: 53%;
+    width: 30%;
+    height: 3.5vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+
+}
+.subcuadroblanco2 p{
+    font-size: 1.7vi;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: black;
+}
+
+.subcuadroblanco3{
+    position: absolute;
+    top: 29vi;
+    left: 30%;
+    width: 30%;
+    height: 3vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.subcuadroblanco3 p{
+    font-size: 1.2vi;
+    margin-top: 6%;
+    margin-left: 17%;
+    color: #ff7221;
+    
+}
+.subcuadroblanco4{
+    position: absolute;
+    top: 38vi;
+    left: 65%;
+    width: 13%;
+    height: 3vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.subcuadroblanco4 p{
+    font-size: 1vi;
+    margin-top: 4%;
+    margin-left: 14%;
+    color: #ff7221;
+    
+}
 
 
 
