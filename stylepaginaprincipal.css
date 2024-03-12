@@ -30,7 +30,8 @@
     font-size: 1.3vw;
     font-family: regular;
     top: 11vi;
-    left: 26.3%;
+    left: 27.3%;
+    text-align: center;
 }
 .indicador{
     position: absolute;
@@ -129,14 +130,7 @@
     left: 93.3%;
     font-size: 1vw;
 }
-.lineascuadro1{
-    position: absolute;
-    top: 19.3vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
 
-}
 .interes{
     position: absolute;
     top: 1vi;
@@ -174,6 +168,35 @@
     top: 1vi;
     left: 73.9%;
     font-size: 1vw;
+}
+.linea1cuadro1{
+    position: absolute;
+    width: 2.3%;
+    height: 7%;
+    top: 0.3vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+
+}
+.linea2cuadro1{
+    position: absolute;
+    width: 2.3%;
+    height: 7%;
+    top: 1.05vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+    
+}
+.linea3cuadro1{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.75vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
 }
 
 
@@ -213,15 +236,7 @@
     left: 93.9%;
     font-size: 1vw;
 }
-.lineascuadro2{
-    position: absolute;
-    top: 23.5vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
-    
 
-}
 .diseño{
     position: absolute;
     top: 1vi;
@@ -260,6 +275,33 @@
     left: 73.9%;
     font-size: 1vw;
 }
+.linea1cuadro2{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 0.3vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea2cuadro2{
+    position: absolute;
+    width: 2.3%;
+    height: 7%;
+    top: 1.05vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea3cuadro2{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.75vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
 
 /* Cuadro3 */
 .cuadro3 {
@@ -295,14 +337,7 @@
     font-size: 1vw;
 }
 
-.lineascuadro3{
-    position: absolute;
-    top: 28vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
 
-}
 .se{
     position: absolute;
     top: 1vi;
@@ -341,6 +376,34 @@
     left: 73.9%;
     font-size: 1vw;
 }
+.linea1cuadro3{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 0.3vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea2cuadro3{
+    position: absolute;
+    width: 2.3%;
+    height: 7%;
+    top: 1.05vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea3cuadro3{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.75vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+
 /* cuadro4 */
 .cuadro4 {
     position: absolute;
@@ -374,14 +437,7 @@
     font-size: 1vw;
 }
 
-.lineascuadro4{
-    position: absolute;
-    top: 32.5vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
 
-}
 .ventas{
     position: absolute;
     top: 1vi;
@@ -420,7 +476,33 @@
     left: 73.9%;
     font-size: 1vw;
 }
-
+.linea1cuadro4{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 0.3vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea2cuadro4{
+    position: absolute;
+    width: 2.3%;
+    height: 7%;
+    top: 1.05vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea3cuadro4{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.75vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
 
 /* Cuadro5 */
 .cuadro5 {
@@ -455,14 +537,7 @@
     font-size: 1vw;
 }
 
-.lineascuadro5{
-    position: absolute;
-    top: 37vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
 
-}
 
 .impacto1{
     position: absolute;
@@ -501,6 +576,33 @@
     top: 1vi;
     left: 73.9%;
     font-size: 1vw;
+}
+.linea1cuadro5{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 0.3vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea2cuadro5{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.05vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+}
+.linea3cuadro5{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.75vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
 }
 
 
@@ -541,14 +643,7 @@
     font-size: 1vw;
 }
 
-.lineascuadro6{
-    position: absolute;
-    top: 41.3vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
 
-}
 
 .impacto2{
     position: absolute;
@@ -609,6 +704,36 @@
     margin: 0; 
     text-align: center;
     cursor: pointer;
+}
+.linea1cuadro6{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 0.3vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+
+}
+.linea2cuadro6{
+    position: absolute;
+    width: 2.3%;
+    height: 7%;
+    top: 1.05vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+    
+}
+.linea3cuadro6{
+    position: absolute;
+    width: 2.3%;
+    height: 7.5%;
+    top: 1.75vi;
+    left: 90vi;
+    background-color: black;
+    cursor: pointer;
+    
 }
 
 
