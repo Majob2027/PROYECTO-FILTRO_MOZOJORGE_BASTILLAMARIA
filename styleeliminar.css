@@ -54,47 +54,50 @@
     left: 24.5vi;
     background-color: white;
 }
-.input-modulo {
-    display: flex;
-    flex-direction: column; 
-    position: left;
-}
-input {
+
+
+.nombreindicador{
     position: absolute;
-    top: 3vw;
-    left: 2vw;
-    width: 25vw;
-    padding: 1vh 0.5vw;
-    border-radius: 0.5vw;
-    margin-bottom: 1vw;
-    font-size: 2vh; 
+    font-size: 1.5vi;
+    font-family: Light;
+    top: 1vi;
+    left: 3vi;
+    font-family: regular;
+
 }
-label {
+.input{
     position: absolute;
-    color: black;
-    font-weight: 600;
-    margin-bottom: 15vw;
-    top: 1.5vw;
-    left: 3vw; 
+    left: 3vi;
+    top: 4vi;
+    width: 20vi;
+    height: 2vi;
 }
+
 .checkbox {
-    display: flex;
-    flex-direction: column;
     position: absolute;
-    top: 5vw;
-    left: -0.5vw;
+    top: 9vi;
+    left: 3vi;
     width: 30vw;
+    font-size: 1.3vi;
+    font-family: regular;
 }
 .botoneliminar {
     position: absolute;
-    top: 12vw;
-    left: 10vw;
-    width: 20vw;
+   top: 15vi;
+   left: 10vi;
+   width: 20vi;
+   height: 3vi;
+   background-color: #ff7221;
+   border-color: #ff7221;
 }
-#botoneliminar {
-    background-color: #ff7221;
-    width: 20vw;
+.eliminar{
+    position: absolute;
+    font-size: 2vi;
+    left: 17vi;
+    top: 15.5vi;
+    color: white;
 }
+
 
 /* ------------------------------------------------------------------------------------ */
 /* popup2 */
