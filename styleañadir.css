@@ -52,7 +52,7 @@
 }
 
 /* Cuadros secundarios */
-
+/* Cuadro 1 */
 .recuadro1 {
     position: absolute;
     top: 3vi;
@@ -85,6 +85,8 @@
     left: 5%;
     border-color: #dfdfdf;
 }
+
+/* Cuadro 2 */
 .recuadro2 {
     position: absolute;
     top: 7vi;
@@ -113,6 +115,7 @@
     border-color: #dfdfdf;
 
 }
+/* Cuadro 3 */
 
 .recuadro3 {
     position: absolute;
@@ -138,6 +141,8 @@
     height: 1.5vi;
     border-color: #adadad;
 }
+
+/* Cuadro 4 */
 
 .recuadro4 {
     position: absolute;
@@ -165,6 +170,11 @@
     left: 5%;
     border-color: #dfdfdf;
 }
+
+
+/* Cuadro 5 */
+
+
 .recuadro5 {
     position: absolute;
     top: 19vi;
@@ -191,6 +201,7 @@
     left: 5%;
     border-color: #dfdfdf;
 }
+/* Cuadro 6 */
 .recuadro6 {
     position: absolute;
     top: 23vi;
