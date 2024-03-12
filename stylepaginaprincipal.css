@@ -801,15 +801,15 @@
 
 @media screen and (max-width: 1024px){
     .tituloindicadores {
-        left: 29vi;
+        left: 27vi;
         top: 23vi;
-        font-size: 5vi;
+        font-size: 5.5vi;
         color: #ff7221;
     }
     .texto1 {
-        left: 25vi;
+        left: 21vi;
         top: 32vi;
-        font-size: 2.5vi;
+        font-size: 2.8vi;
         text-align: center;
     }
 
@@ -919,7 +919,7 @@
     top: 40vi ;
     width: 60%;   
     height: 22vi;
-    background-color:#ffdac2;
+    background-color:#ffc198;
     padding: 1vw; 
     border: 3px solid #ff7221;
     border-radius: 20px;
@@ -927,68 +927,64 @@
 
 
 .cuadro1 p {
-    font-size: 1vw; 
-    color: #333;
+    font-size: 4vw; 
+    color:white;
     margin: 0; 
+    margin-left: 18.5vi;
 }
 .cuadro1  img{
 
-    top: 0;
-    left: 84%;
-    width: 4.2vw;
+    top: 14vi;
+    left: 41%;
+    width: 12vw;
 }
 
 .hola1{
    
-    top: 1vi;
-    left: 93.3%;
-    font-size: 1vw;
+    top: 5vi;
+    left: 40%;
+    font-size: 3vw;
+    color: white;
 }
-.lineascuadro1{
 
-    top: 19.3vi;
-    left: 95%;
-    width: 2vi;
-  
-
-}
 .interes{
  
-    top: 1vi;
-    left: 14%;
-    font-size: 1vw;
+    top: 9vi;
+    left: 33%;
+    font-size: 3vw;
+    color: white;
 }
 .baja{
 
     top: 1vi;
     left: 30.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechaicuadro1{
  
     top: 1vi;
     left: 40%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechafcuadro1{
   
     top: 1vi;
     left: 52.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .metagil1{
 
     top: 1vi;
     left: 64.2%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .fraccion1{
     
     top: 1vi;
     left: 73.9%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 
 
@@ -1001,7 +997,7 @@
     top: 67vi ;
     width: 60%;   
     height: 22vi;
-    background-color:#ffdac2;
+    background-color:#ffc198;
     padding: 1vw; 
     border: 3px solid #ff7221;
     border-radius: 20px;
@@ -1009,68 +1005,62 @@
 
 
 .cuadro2 p {
-    font-size: 1vw; 
-    color: #333;
-    margin: 0; 
+    font-size: 4vw; 
+    color:white;
+    margin-left: 20vi; 
 }
 
 .cuadro2  img{
     
-    top: 0;
-    left: 84.6%;
-    width: 3.5vw;
+    top: 14vi;
+    left: 43%;
+    width: 10.5vw;
 }
 
 .hola2{
 
-    top: 1vi;
-    left: 93.9%;
-    font-size: 1vw;
+    top: 5.5vi;
+    left: 42%;
+    font-size: 3vw;
+    color: white;
 }
-.lineascuadro2{
-  
-    top: 23.5vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
-    
 
-}
 .diseño{
    
-    top: 1vi;
-    left: 14%;
-    font-size: 1vw;
+    top: 9vi;
+    left: 33%;
+    font-size: 3vw;
+    color: white;
 }
 .baja2{
 
     top: 1vi;
     left: 30.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechaicuadro2{
 
     top: 1vi;
     left: 40%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechafcuadro2{
  
     top: 1vi;
     left: 52.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .metagil2{
     top: 1vi;
     left: 64.2%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .fraccion2{
     top: 1vi;
     left: 73.9%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 
 /* Cuadro3 */
@@ -1079,70 +1069,70 @@
     top: 94vi ;
     width: 60%;   
     height: 22vi;
-    background-color:#ffdac2;
+    background-color:#ffc198;
+    padding: 1vw; 
     border: 3px solid #ff7221;
+    border-radius: 20px;
 }
 }
 
 
 .cuadro3 p {
-    font-size: 1vw; 
-    color: #000000;
+    font-size: 4vw; 
+    color:white;
     margin: 0; 
+    margin-left: 16vi; 
 }
 
 .cuadro3  img{
  
-    top: 0;
-    left: 84.6%;
-    width: 3.3vw;
+    top: 14vi;
+    left: 43%;
+    width: 10.5vw;
 }
 
 .hola3{
 
-    top: 1vi;
-    left: 93.3%;
-    font-size: 1vw;
+    top: 5.5vi;
+    left: 41%;
+    font-size: 3vw;
+    color: white;
 }
 
-.lineascuadro3{
-    top: 28vi;
-    left: 95%;
-    width: 2vi;
 
-}
 .se{
-    top: 1vi;
-    left: 14%;
-    font-size: 1vw;
+    top: 9vi;
+    left: 31%;
+    font-size: 3vw;
+    color: white;
 }
 .media1{
     top: 1vi;
     left: 30.1%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechaicuadro3{
 
     top: 1vi;
     left: 40%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechafcuadro3{
     top: 1vi;
     left: 52.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .metfibo{
     top: 1vi;
     left: 64.2%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .fraccion3{
     top: 1vi;
     left: 73.9%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 /* cuadro4 */
 .cuadro4 {
@@ -1150,7 +1140,7 @@
     top: 121vi ;
     width: 60%;   
     height: 22vi;
-    background-color:#ffdac2;
+    background-color:#ffc198;
     padding: 1vw; 
     border: 3px solid #ff7221;
     border-radius: 20px;
@@ -1158,69 +1148,62 @@
 
 
 .cuadro4 p {
-    font-size: 1vw; 
-    color: #333;
+    font-size: 4vw; 
+    color:white;
     margin: 0; 
+    margin-left: 16vi; 
 }
 .cuadro4  img{
-    position: absolute;
-    top: 0;
-    left: 84.6%;
-    width: 3.5vw;
+    top: 14vi;
+    left: 43%;
+    width: 11vw;
 }
 
 .hola4{
-    position: absolute;
-    top: 1vi;
-    left: 93.8%;
-    font-size: 1vw;
+    top: 5.5vi;
+    left: 42%;
+    font-size: 3vw;
+    color: white;
 }
 
-.lineascuadro4{
-    position: absolute;
-    top: 32.5vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
 
-}
 .ventas{
-    position: absolute;
-    top: 1vi;
-    left: 14%;
-    font-size: 1vw;
+    top: 9vi;
+    left: 33%;
+    font-size: 3vw;
+    color: white;
 }
 .media2{
     position: absolute;
     top: 1vi;
     left: 30.1%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechaicuadro4{
     position: absolute;
     top: 1vi;
     left: 40%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechafcuadro4{
     position: absolute;
     top: 1vi;
     left: 52.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .NA{
     position: absolute;
     top: 1vi;
     left: 64.2%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 .fraccion4{
     position: absolute;
     top: 1vi;
     left: 73.9%;
-    font-size: 1vw;
+    font-size: 0vw;
 }
 
 
@@ -1230,7 +1213,7 @@
     top: 148vi ;
     width: 60%;   
     height: 22vi;
-    background-color:#ffdac2;
+    background-color:#ffc198;
     padding: 1vw; 
     border: 3px solid #ff7221;
     border-radius: 20px;
@@ -1238,70 +1221,51 @@
 
 
 .cuadro5 p {
-    font-size: 1vw; 
-    color: #333;
+    font-size: 4vw; 
+    color:white;
     margin: 0; 
+    margin-left: 13vi; 
 }
 .cuadro5  img{
-    position: absolute;
-    top: 0;
-    left: 84.6%;
-    width: 3.6vw;
+    top: 14vi;
+    left: 43%;
+    width: 11vw;
 }
 
 .hola5{
-    position: absolute;
-    top: 1vi;
-    left: 93.3%;
-    font-size: 1vw;
-}
-
-.lineascuadro5{
-    position: absolute;
-    top: 37vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
-
+    top: 5.5vi;
+    left: 42%;
+    font-size: 3vw;
+    color: white;
 }
 
 .impacto1{
-    position: absolute;
-    top: 1vi;
-    left: 14%;
-    font-size: 1vw;
+    top: 9vi;
+    left: 33%;
+    font-size: 3vw;
+    color: white;
 }
 .alta1{
-    position: absolute;
-    top: 1vi;
-    left: 30.5%;
-    font-size: 1vw;
+
+    font-size: 0vw;
 
 }
 .fechaicuadro5{
-    position: absolute;
-    top: 1vi;
-    left: 40%;
-    font-size: 1vw;
+ 
+    font-size: 0vw;
 
 }
 .fechafcuadro5{
-    position: absolute;
-    top: 1vi;
-    left: 52.5%;
-    font-size: 1vw;
+ 
+    font-size: 0vw;
 }
 .metexpo1{
-    position: absolute;
-    top: 1vi;
-    left: 64.2%;
-    font-size: 1vw;
+
+    font-size: 0vw;
 }
 .fraccion5{
-    position: absolute;
-    top: 1vi;
-    left: 73.9%;
-    font-size: 1vw;
+    
+    font-size: 0vw;
 }
 
 
@@ -1314,7 +1278,7 @@
     top: 175vi ;
     width: 60%;   
     height: 22vi;
-    background-color:#ffdac2;
+    background-color:#ffc198;
     padding: 1vw; 
     border: 3px solid #ff7221;
     border-radius: 20px;
@@ -1322,71 +1286,51 @@
 
 
 .cuadro6 p {
-    font-size: 1vw; 
-    color: #333;
+    font-size: 4vw; 
+    color:white;
     margin: 0; 
+    margin-left: 17vi;  
 }
 
 .cuadro6  img{
-    position: absolute;
-    top: 0;
-    left: 84.6%;
-    width: 3.6vw;
+    top: 14vi;
+    left: 43%;
+    width: 10.5vw;
 }
 
 .hola6{
-    position: absolute;
-    top: 1vi;
-    left: 93.3%;
-    font-size: 1vw;
-}
-
-.lineascuadro6{
-    position: absolute;
-    top: 41.3vi;
-    left: 95%;
-    width: 2vi;
-    cursor: pointer;
-
+    top: 5.5vi;
+    left: 42%;
+    font-size: 3vw;
+    color: white;
 }
 
 .impacto2{
-    position: absolute;
-    top: 1vi;
-    left: 14%;
-    font-size: 1vw;
+    top: 9vi;
+    left: 33%;
+    font-size: 3vw;
+    color: white;
 }
 .alta2{
-    position: absolute;
-    top: 1vi;
-    left: 30.5%;
-    font-size: 1vw;
+    font-size: 0vw;
 
 }
 .fechaicuadro6{
-    position: absolute;
-    top: 1vi;
-    left: 40%;
-    font-size: 1vw;
+
+    font-size: 0vw;
 
 }
 .fechafcuadro6{
-    position: absolute;
-    top: 1vi;
-    left: 52.5%;
-    font-size: 1vw;
+   
+    font-size: 0vw;
 }
 .metexpo2{
-    position: absolute;
-    top: 1vi;
-    left: 64.2%;
-    font-size: 1vw;
+  
+    font-size: 0vw;
 }
 .fraccion6{
-    position: absolute;
-    top: 1vi;
-    left: 73.9%;
-    font-size: 1vw;
+
+    font-size: 0vw;
 }
 
 .cuadro7 {
