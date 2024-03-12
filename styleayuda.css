@@ -57,9 +57,9 @@
 
 .subcuadroblanco1{
     position: absolute;
-    top: 1vi;
+    top: 10vi;
     left: 7%;
-    width: 60%;
+    width: 30%;
     height: 3.5vi;  
     margin: 20px auto;
     background-color:#ffffff; 
@@ -69,6 +69,7 @@
 .subcuadroblanco1 p{
     font-size: 1.7vi;
     margin-top: 3%;
+    margin-left: 5%;
     color: black;
 }
 
@@ -93,9 +94,9 @@
 
 .subcuadroblanco3{
     position: absolute;
-    top: 29vi;
-    left: 30%;
-    width: 30%;
+    top: 39vi;
+    left: 20%;
+    width: 13%;
     height: 3vi;  
     margin: 20px auto;
     background-color:#ffffff; 
@@ -301,9 +302,102 @@
 
 
 
-@media screen {
-    .modalDialog2 > div {
-        height: 40vi;
-    }
+@media screen and (max-width: 414px){
+    /* Pagina ayuda  */
+
+.cuadroprincipal1{
+    position: absolute;
+    top: 12vi;
+    left: 16%;
+    width: 62%;
+    height: 40vi;  
+
+}
+.cuadroprincipal1 p{
+    margin-left: 8%;
+    margin-top: 13%;
+    font-size: 1.8vi;
+}
+.cuadroprincipal2{
+    top: 60vi;
+    left: 16%;
+    width: 62%;
+    height: 40vi;  
+
+}
+.cuadroprincipal2 p{
+    margin-left: 8%;
+    margin-top: 13%;
+    font-size: 1.8vi;
+}
+
+
+.subcuadroblanco1{
+    top: 14vi;
+    left: 20%;
+    width: 30%;
+    height: 3.5vi;  
+
+
+}
+.subcuadroblanco1 p{
+    font-size: 2.1vi;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+
+.subcuadroblanco2{
+    top: 62vi;
+    left: 20%;
+    width: 30%;
+    height: 3.5vi;  
+
+}
+.subcuadroblanco2 p{
+    font-size: 2.1vi;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: black;
+}
+
+.subcuadroblanco3{
+    position: absolute;
+    top: 47vi;
+    left: 40%;
+    width: 14%;
+    height: 3vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.subcuadroblanco3 p{
+    font-size: 1.5vi;
+    margin-top: 6%;
+    margin-left: 13%;
+    color: #ff7221;
     
+}
+.subcuadroblanco4{
+    position: absolute;
+    top: 93vi;
+    left: 40%;
+    width: 15%;
+    height: 4vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.subcuadroblanco4 p{
+    font-size: 1.2vi;
+    margin-top: 4%;
+    margin-left: 10%;
+    color: #ff7221;
+    
+}
+
 }
