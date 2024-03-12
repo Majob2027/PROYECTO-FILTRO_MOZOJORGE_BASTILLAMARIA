@@ -156,27 +156,27 @@
 
 @media only screen and (max-width: 414px) {
     .linea{
-        background-color: transparent;
+        background-color:transparent;
     }
 
     .imglogo{
-        width: 8%;
-        left: 46%;
-        top: 2vh;
+        width: 8.5%;
+        left: 47%;
+        top: 1vh;
 
     }
     
     .imgfotoperfil{
-        top:2vh ;
+        top:1vh ;
         left: 89%;
         width: 6%;
     }
     .imgconfiguracion{
-        top: 6.5vh;
+        top: 5.5vh;
         width: 1.8%;
     }
     .imgnotificaciones{
-        top: 6.5vh;
+        top: 5.5vh;
         width: 1.8%;
         left: 93%;
     }

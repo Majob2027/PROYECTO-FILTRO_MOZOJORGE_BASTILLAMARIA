@@ -782,13 +782,13 @@
 }
 
 
-@media screen {
+@media screen and (max-width: 414px){
     .tituloindicadores {
         left: 37vi;
         top: 15vi;
     }
     .texto1 {
-        left: 24vi;
+        left: 25vi;
         top: 20vi;
     }
     
