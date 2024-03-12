@@ -780,6 +780,23 @@
     text-align: center;
     cursor: pointer;
 }
+.subcuadrito5{
+    position: absolute;
+    top: 32.3vi;
+    left: 42.5%;
+    width: 17%;
+    height: 1.2vi;  
+    margin: 20px auto;
+    background-color:#ffffff; 
+    border-radius: 10px;
+    font-size: 0.9vw;
+    color:#ff7221;
+    font-family: regular;
+    text-align: center;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
 
 
 @media screen and (max-width: 414px){
