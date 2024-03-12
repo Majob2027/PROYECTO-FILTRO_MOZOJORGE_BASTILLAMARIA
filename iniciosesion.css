@@ -81,7 +81,8 @@ label {
 input {
     padding: 2vh 2vw;
     border-radius: 20vw;
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
+    font-size: 2vh;
     font-family: regularJ;
 }
 .loguitoform {

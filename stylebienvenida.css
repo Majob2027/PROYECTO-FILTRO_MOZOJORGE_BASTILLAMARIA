@@ -10,6 +10,12 @@ body {
     background-size: cover;
     font-family: regularJ;
 } 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
 .cuadroblanco {
     display: flex;
     padding:5vw 5vh;
@@ -23,7 +29,7 @@ body {
     top: 10vw;
     left: 30vw;
     opacity: 1;
-    animation: aparecer 2s;  
+    animation: aparecer 3s forwards;  
 }
 @keyframes aparecer {
     0% {
@@ -32,8 +38,11 @@ body {
     80%{
         opacity: 1;
     }
-    100%{
+    90% {
         opacity: 1;
+    }
+    100%{
+        opacity: 0;
     }
 }
 .loguito2 {
@@ -67,5 +76,24 @@ body {
     color: slategrey;
     top: 21vw;
     left: 18vw;
+}
+.logo2 {
+    position: relative;
+    top: 17.5vw; 
+    left: 45vw;
+    animation: aparecer2 2s forwards;
+    animation-delay: 4s;
+    opacity: 0;
+}
+@keyframes aparecer2 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
