@@ -1,128 +1,163 @@
 @font-face {
-    font-family: regularJ;
-    src: url('./fuentes/Myriad\ Pro\ Regular.ttf');
+    font-family: Light;
+    src: url(/fuentes/light.otf);
+}
+@font-face {
+    font-family: regular ;
+    src: url(/fuentes/regular.OTF);
 }
 body {
     margin: 0;
     padding: 0;
-    background: url('Imagenes/fondo.png')no-repeat center center fixed;
+    background: url('Imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
     font-family: regularJ;
-} 
+}
+
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
     width: 100%;
     height: 100%;
 }
+
 .logo {
-    position: relative;
-    top: 15vw; 
-    left: 45vw;
-    animation: desvanecer;
-    animation-duration: 2s;
+    position: absolute;
+    top: 20vi;
+    left: 45%;
+    width: 10%;
+    animation: desvanecer 2s;
     opacity: 0;
 }
-@keyframes desvanecer {
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
-}
-form {
-    display: flex;
-    padding:5vw 5vh;
-    box-shadow: 0 0 10% rgba(0, 0, 0, 0.2);
-    background: white;
-   position: absolute;
-    border-radius: 5vw;
-    text-align: center;
-    width: 50vw;
-    height: 55vh;
-    top: 5vw;
-    left: 25vw;
-    opacity: 1;
-    animation: aparecer 3s; 
-}
-@keyframes aparecer{
-    0% {
-        opacity: 0;
-    }
-    80% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-.input-group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-family: regularJ;
 
+@keyframes desvanecer {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
 }
-h1 {
+
+.form {
     position: absolute;
-    bottom: 15vw;
+    background: white;
+    border-radius: 3.5vi;
+    text-align: center;
+    width: 47vi;
+    height: 37vi;
+    top: 5.5vi;
+    left: 26vi;
+    opacity: 1;
+    animation: aparecer 3s;
+}
+
+@keyframes aparecer {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+.bienvenidopanel {
+    position: absolute;
+    bottom: 15%;
     color: black;
-    font-family: regularJ;
-    top: 9vw;
-    left: 16.5vw;
+    font-family: regular;
+    top: 7.5vi;
+    left: 11vi;
+    font-size: 2vw;
 }
-label {
+
+
+
+
+.formulario1{
     position: absolute;
-    color: slategrey;
-    font-weight: 600;
-    margin-bottom: 15vw;
-    top: -1.5vw;
-    left: 2vw;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    font-size: 2vw;
+    font-family: regular;
+    top: 17vi;
+    width: 30vi;
+    left: 8.5vi;
+    height: 2.5vi;
+    border-color: #a7a7a7;
 }
-input {
-    padding: 2vh 2vw;
-    border-radius: 20vw;
-    margin-bottom: 1vw;
-    font-size: 2vh;
-    font-family: regularJ;
+.palabra1{
+    position: absolute;
+    font-family: Light;
+    font-size: 1.2vi;
+    top: 15vi;
+    left: 9.5vi;
 }
+.formulario2{
+    position: absolute;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    font-size: 2vw;
+    font-family: regular;
+    top: 23vi;
+    width: 30vi;
+    left: 8.5vi;
+    height: 2.5vi;
+    border-color: #b9b9b9;
+}
+.palabra2{
+    position: absolute;
+    font-family: Light;
+    font-size: 1.2vi;
+    top: 20.7vi;
+    left: 9vi;
+}
+
 .loguitoform {
     position: absolute;
-    top: 2vw;
-    left: 24vw;
+    top: 1.5vi;
+    left: 21vi;
+    width: 10%;
 }
-#Usuario {
-    width: 46vw;
-}
-#contraseña {
-    width: 46vw;
-}
-.user {
+.subtitulo{
     position: absolute;
-    top: 17vw;
-    width: 50vw;
+    text-align: center;
+    font-size: 1vi;
+    font-family: Light;
+    left: 10.5vi;
+    top: 13vi;
 }
-.contra {
-    position: absolute;
-    top: 22vw;
-    width: 50vw;
+.boton{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2vi;
+    color: white;
+    margin-top: 1vi;
 }
+
+
+
+
 .botonsito {
     position: absolute;
-    top: 27vw;
-    left: 22vw;
+    top: 27vi;
+    left: 15vi;
+    height: 3.5vi;
+    width: 16.5vi;
+    background-color: #ff7221;
+    border: #ff7221;
+    border-radius: 2vi;
+    cursor: pointer;
 }
-#botonsito {
-    background-color: #FF721B;
-    border: none;
-    color: white;
-    font-weight: bold;
-}
+
+
+
 #pie {
     position: absolute;
-    color: silver;
-    top: 30vw; 
-    left: 10vw;
+    color: rgb(0, 0, 0);
+    bottom: 2%;
+    left: 8vi;
     text-align: center;
+    color: black;
+    font-family: Light;
+    top: 32vi;
+    font-size: 0.8vi;
 }
 
 
