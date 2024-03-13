@@ -12,7 +12,7 @@ body {
     background: url('Imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
-    font-family: regularJ;
+    font-family: regular;
 }
 
 .container {
@@ -23,9 +23,10 @@ body {
 
 .logo {
     position: absolute;
-    top: 20vi;
+    width: 10%; /* Cambiado a un valor relativo */
+    top: 5%; /* Ajustado según tus necesidades */
     left: 45%;
-    width: 10%;
+    transform: translateX(-50%);
     animation: desvanecer 2s;
     opacity: 0;
 }
@@ -129,6 +130,7 @@ body {
     font-size: 1.2vi;
     color: white;
     margin-top: 1vi;
+    cursor: pointer;
 }
 
 

@@ -3,6 +3,7 @@
     src: url('./fuentes/Myriad\ Pro\ Regular.ttf');
 }
 body {
+    position: relative;
     margin: 0;
     padding: 0;
     background: url('Imagenes/fondo.png')no-repeat center center fixed;
@@ -47,6 +48,7 @@ body {
 }
 .loguito2 {
     position: absolute; 
+    width: ;
     top: 2vw;
     left: 19.5vw;
 }
