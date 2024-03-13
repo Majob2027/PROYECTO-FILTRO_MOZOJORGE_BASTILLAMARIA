@@ -214,10 +214,10 @@
      align-items: center;
      top: 1vh;
      left: 74.5vw;
- 
      width: 2.5vi;
      height: 2.5vi;
      border-radius: 50%;
+     font-size: 1vi;
      background: 
        radial-gradient(closest-side, white 79%, transparent 80% 100%),
        conic-gradient(rgb(255, 0, 0) calc(var(--progress-value) * 1%), pink 0);
@@ -345,7 +345,7 @@
      align-items: center;
      top: 1vh;
      left: 74.5vw;
- 
+     font-size: 1vi;
      width: 2.5vi;
      height: 2.5vi;
      border-radius: 50%;
@@ -472,7 +472,7 @@
      align-items: center;
      top: 1vh;
      left: 74.5vw;
- 
+     font-size: 1vi;
      width: 2.5vi;
      height: 2.5vi;
      border-radius: 50%;
@@ -599,7 +599,7 @@
      align-items: center;
      top: 1vh;
      left: 74.5vw;
- 
+     font-size: 1vi;
      width: 2.5vi;
      height: 2.5vi;
      border-radius: 50%;
@@ -726,7 +726,7 @@
      align-items: center;
      top: 1vh;
      left: 74.5vw;
- 
+     font-size: 1vi;
      width: 2.5vi;
      height: 2.5vi;
      border-radius: 50%;
@@ -830,7 +830,7 @@
      align-items: center;
      top: 1vh;
      left: 74.5vw;
- 
+     font-size: 1vi;
      width: 2.5vi;
      height: 2.5vi;
      border-radius: 50%;
@@ -1101,7 +1101,7 @@
 @media screen and (max-width: 440px){
     .tituloindicadores {
         left: 28.5vi;
-        top: 37.5vi;
+        top: 38.5vi;
         font-size: 5vi;
         color: #ff7221;
     }
@@ -1214,8 +1214,8 @@
 }
 /*--- style pagina ---*/
 .cuadro1 {
-    left: 17%;
-    top: 44.5vi ;
+    left: 17vi;
+    top: 47.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1236,6 +1236,7 @@
     left: 42%;
     width: 10.5vi;
     height: 10vi;
+    font-size: 3vi;
 }
 
 
@@ -1294,7 +1295,7 @@
 
 .cuadro2 {
     left: 17%;
-    top: 71.5vi ;
+    top: 74.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1316,6 +1317,7 @@
     left: 43%;
     width: 10.5vi;
     height: 10vi;
+    font-size: 3vi;
 }
 
 .hola2{
@@ -1367,7 +1369,7 @@
 /* Cuadro3 */
 .cuadro3 {
     left: 17%;
-    top: 98.5vi ;
+    top: 101.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1391,6 +1393,7 @@
     left: 43%;
     width: 10.5vi;
     height: 10vi;
+    font-size: 3vi;
 }
 
 .hola3{
@@ -1439,7 +1442,7 @@
 /* cuadro4 */
 .cuadro4 {
     left: 18%;
-    top: 125.5vi ;
+    top: 128.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1460,6 +1463,7 @@
     left: 43%;
     width: 11vw;
     height: 10vi;
+    font-size: 3vi;
 }
 
 .hola4{
@@ -1513,7 +1517,7 @@
 /* Cuadro5 */
 .cuadro5 {
     left: 17%;
-    top: 152.5vi ;
+    top: 155.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1534,6 +1538,7 @@
     left: 43%;
     width: 10.5vw;
     height: 10vi;
+    font-size: 3vi;
 }
 
 .hola5{
@@ -1579,7 +1584,7 @@
 
 .cuadro6 {
     left: 17%;
-    top: 179.5vi ;
+    top: 182.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1601,6 +1606,7 @@
     left: 43%;
     width: 10.5vw;
     height: 10vi;
+    font-size: 3vi;
 }
 
 .hola6{
@@ -1640,7 +1646,7 @@
 
 .cuadro7 {
     left: 33%;
-    top: 206.5vi ;
+    top: 209.5vi ;
     width: 30%;   
     height: 4vi;
 }
