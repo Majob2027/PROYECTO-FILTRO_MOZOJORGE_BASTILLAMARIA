@@ -128,7 +128,7 @@ body {
         width: 60vi;
         height: 105vi;
         top: 10vi;
-        left: 23vi;
+        left: 20vi;
         animation: aparecer 3s forwards;
     }
     @keyframes aparecer {
