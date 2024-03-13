@@ -926,15 +926,15 @@
 
 @media screen and (max-width: 440px){
     .tituloindicadores {
-        left: 27vi;
-        top: 23vi;
-        font-size: 5.5vi;
+        left: 29.5vi;
+        top: 37vi;
+        font-size: 5vi;
         color: #ff7221;
     }
     .texto1 {
         left: 2vi;
         top: 32vi;
-        font-size: 2.8vi;
+        font-size: 0vi;
         text-align: center;
     }
 
@@ -1041,7 +1041,7 @@
 /*--- style pagina ---*/
 .cuadro1 {
     left: 18%;
-    top: 40vi ;
+    top: 44.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1119,7 +1119,7 @@
 
 .cuadro2 {
     left: 18%;
-    top: 67vi ;
+    top: 71.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1191,7 +1191,7 @@
 /* Cuadro3 */
 .cuadro3 {
     left: 18%;
-    top: 94vi ;
+    top: 98.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1262,7 +1262,7 @@
 /* cuadro4 */
 .cuadro4 {
     left: 18%;
-    top: 121vi ;
+    top: 125.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1335,7 +1335,7 @@
 /* Cuadro5 */
 .cuadro5 {
     left: 18%;
-    top: 148vi ;
+    top: 152.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1400,7 +1400,7 @@
 
 .cuadro6 {
     left: 18%;
-    top: 175vi ;
+    top: 179.5vi ;
     width: 60%;   
     height: 22vi;
     background-color:#ffc198;
@@ -1460,7 +1460,7 @@
 
 .cuadro7 {
     left: 35%;
-    top: 205vi ;
+    top: 206.5vi ;
     width: 30%;   
     height: 4vi;
 }
