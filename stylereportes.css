@@ -184,38 +184,6 @@
     top: 1vi;
 }
 
-@media only screen and (max-width: 430px) {
-    .titulo {
-      top: 10vi;
-    }
-    .cuadronaranja{
-        top: 12vi;
-    }
-    .cuadronaranja2{
-        top: 29vi;
-    }
-    .cuadronaranja3{
-        top: 29vi;
-    }
-    .textocuadronaranja2{
-        top: 36vi;
-    }
-    .textocuadronaranja3{
-        top: 36vi;
-    }
-    .cuadroblanco{
-        top: 49vi;
-    }
-    .cuadroblanco2{
-        top: 39vi;
-    }
-    .subrecuadro1{
-        top: 36vi;
-    }
-    .subrecuadro2{
-        top: 42vi;
-    }
-  }
 
  
 
@@ -407,7 +375,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 430px) {
     .titulo{
         left: 20vi;
         top: 25vi;
