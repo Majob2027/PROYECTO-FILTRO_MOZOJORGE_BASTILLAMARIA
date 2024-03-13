@@ -100,17 +100,17 @@ body {
     width: 40%;
     top: 16vh; 
     left: 30%; /* Ajustado para que sea proporcional */
-    animation: aparecer2 2s forwards;
+    animation: aparecer2 3s forwards;
     animation-delay: 4s;
     opacity: 0;
 }
 
 @keyframes aparecer2 {
     0% {
-        opacity: 1;
+        opacity: 0;
     }
     50% {
-        opacity: 0;
+        opacity: 1;
     }
     100% {
         opacity: 0;
