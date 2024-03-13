@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('Imagenes/fondo.png') no-repeat center center fixed;
+    background: url('imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ body {
     position: absolute;
     width: 15vi; 
     top: 30vh; 
-    left: 45%;
+    left: 40%;
     animation: desvanecer 2s;
     opacity: 0;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 @keyframes aparecer {
-    0% { opacity: 0; }relative
+    0% { opacity: 0; }
     80% { opacity: 0; }
     100% { opacity: 1; }
 }
