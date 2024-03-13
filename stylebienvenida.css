@@ -1,36 +1,42 @@
 @font-face {
-    font-family: regularJ;
-    src: url('./fuentes/Myriad\ Pro\ Regular.ttf');
+    font-family: Light;
+    src: url(/fuentes/light.otf);
 }
+
+@font-face {
+    font-family: regular;
+    src: url(/fuentes/regular.OTF);
+}
+
 body {
     position: relative;
     margin: 0;
     padding: 0;
-    background: url('Imagenes/fondo.png')no-repeat center center fixed;
+    background: url('Imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
-    font-family: regularJ;
-} 
+    font-family: regular;
+}
+
 .container2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
+
 .cuadroblanco {
-    display: flex;
-    padding:5vw 5vh;
-    box-shadow: 0 0 10% rgba(0, 0, 0, 0.2);
+    position: absolute;
     background: white;
-   position: absolute;
-    border-radius: 5vw;
+    border-radius: 3.5vi;
+    box-shadow: 0 0 10% rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 40vw;
-    height: 35vh;
-    top: 10vw;
-    left: 30vw;
+    width: 53vi;
+    height: 28vi;
+    top: 12vi;
+    left: 22vi;
     opacity: 1;
-    animation: aparecer 3s forwards;  
+    animation: aparecer 3s forwards;
 }
 @keyframes aparecer {
     0% {
@@ -45,57 +51,167 @@ body {
     100%{
         opacity: 0;
     }
-}
+    }
 .loguito2 {
-    position: absolute; 
-    width: ;
-    top: 2vw;
-    left: 19.5vw;
+    position: absolute;
+    width: 35%; 
+    top: 1vi;
+    left: 12vi;
 }
+
 .sub1 {
     position: absolute;
-    top: 9vw;
-    left: 16.5vw;
+    top: 8.7vi;
+    left: 19vi;
+    font-size: 1.2vi;
+    font-family: Light;
 }
-#fotopedrito {
-    width: 5vw;
-    height: auto;
-}
+
 .fotopedrito {
     position: absolute;
-    top: 12vw;
-    left: 19.5vw;
-    border-radius: 50vw;
+    width: 35%;
+    margin-top: 6.5vi;
+    margin-left: 7.3vi;
+    
 }
+
+
+
 .sub2 {
     position: absolute;
-    top: 17.5vw;
-    left: 15vw;
+    top: 18.5vi;
+    left: 17vi;
     text-align: center;
+    font-size: 1.2vi;
+    font-family: Light;
 }
+
 .pie2 {
     position: absolute;
     color: slategrey;
-    top: 21vw;
-    left: 18vw;
+    top: 22vi;
+    left: 22vi;
+    color: black;
+    font-size: 1vi;
 }
+
 .logo2 {
-    position: relative;
-    top: 17.5vw; 
-    left: 45vw;
+    position: absolute;
+    top: 20vi; /* Ajustado para que sea proporcional */
+    left: 45vi; /* Ajustado para que sea proporcional */
     animation: aparecer2 2s forwards;
     animation-delay: 4s;
     opacity: 0;
 }
+
 @keyframes aparecer2 {
     0% {
-        opacity: 1;
-    }
-    50% {
         opacity: 0;
     }
-    100% {
+    50% {
         opacity: 1;
     }
+    100% {
+        opacity: 0;
+    }
 }
+
+@media only screen and (max-width: 430px) {
+
+    
+
+    
+    .cuadroblanco {
+        margin-top: 30%;
+        position: absolute;
+        background: white;
+        border-radius: 3.5vi;
+        text-align: center;
+        width: 60vi;
+        height: 105vi;
+        top: 10vi;
+        left: 23vi;
+        opacity: 1;
+        animation: aparecer 3s;
+    }
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        80%{
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+        }
+    
+    .loguito2 {
+        position: absolute;
+        width: 60%; 
+        top: 2vi;
+        left: 10.5vi;
+    }
+    
+    .sub1 {
+        position: absolute;
+        top: 30vi;
+        left: 13vi;
+        font-size: 3vi;
+        font-family: Light;
+    }
+    
+    .fotopedrito {
+        position: absolute;
+        width: 60%;
+        margin-top: 23vi;
+        margin-left: 2vi;
+        
+    }
+    
+    
+    
+    .sub2 {
+        position: absolute;
+        top: 70vi;
+        left: 6vi;
+        text-align: center;
+        font-size: 3vi;
+        font-family: Light;
+    }
+    
+    .pie2 {
+        position: absolute;
+        color: slategrey;
+        top: 80vi;
+        left: 17.9vi;
+        color: black;
+        font-size: 3vi;
+    }
+    
+    .logo2 {
+        position: absolute;
+        width: 20vi;
+        top: 70vi; 
+        left: 30vi; 
+        animation: aparecer2 2s forwards;
+        animation-delay: 4s;
+        opacity: 0;
+    }
+    @keyframes aparecer2 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+}
+
+
 
