@@ -23,7 +23,7 @@ body {
 
 .logo {
     position: absolute;
-    width: 10vi; 
+    width: 2vi; 
     top: 20vi; 
     left: 50vi;
     transform: translateX(-50%);
@@ -44,7 +44,7 @@ body {
     text-align: center;
     width: 47vi;
     height: 37vi;
-    top: 5.5vi;
+    top: 10vi;
     left: 26vi;
     opacity: 1;
     animation: aparecer 3s;
@@ -164,7 +164,7 @@ body {
 @media only screen and (max-width: 430px) {
     .logo {
         width: 8vi; 
-        top: 20vi; 
+        top: 30vi; 
         left: 50vi;
         transform: translateX(-50%);
         animation: desvanecer 2s;
@@ -177,14 +177,12 @@ body {
     }
     
     .form {
-        position: absolute;
-        background: white;
         border-radius: 3.5vi;
         text-align: center;
-        width: 47vi;
-        height: 37vi;
-        top: 5.5vi;
-        left: 26vi;
+        width: 70vi;
+        height: 120vi;
+        top: 40vi;
+        left: 17vi;
         opacity: 1;
         animation: aparecer 3s;
     }
@@ -198,75 +196,58 @@ body {
     
     
     .bienvenidopanel {
-        position: absolute;
         bottom: 15%;
         color: black;
         font-family: regular;
-        top: 7.5vi;
-        left: 11vi;
-        font-size: 2vw;
+        top: 26vi;
+        left: 8vi;
+        font-size: 4.5vw;
     }
     
     
     
     
     .formulario1{
-        position: absolute;
-        border-radius: 20px;
-        margin-bottom: 1%;
         font-size: 2vw;
-        font-family: regular;
-        top: 17vi;
-        width: 30vi;
-        left: 8.5vi;
-        height: 2.5vi;
-        border-color: #a7a7a7;
+        top: 57vi;
+        width: 45vi;
+        left: 11.5vi;
+        height: 5vi;
     }
     .palabra1{
-        position: absolute;
-        font-family: Light;
-        font-size: 1.2vi;
-        top: 15vi;
-        left: 9.5vi;
+    
+        font-size: 5vi;
+        top: 50vi;
+        left: 28vi;
     }
     .formulario2{
-        position: absolute;
-        border-radius: 20px;
-        margin-bottom: 1%;
-        font-size: 2vw;
-        font-family: regular;
-        top: 23vi;
-        width: 30vi;
-        left: 8.5vi;
-        height: 2.5vi;
-        border-color: #b9b9b9;
+        top: 74vi;
+        width: 45vi;
+        left: 11.5vi;
+        height: 5vi;
     }
     .palabra2{
-        position: absolute;
-        font-family: Light;
-        font-size: 1.2vi;
-        top: 20.7vi;
-        left: 9vi;
+        font-size: 5vi;
+        top: 68vi;
+        left: 23vi;
     }
     
     .loguitoform {
-        position: absolute;
+    
         top: 1.5vi;
-        left: 21vi;
-        width: 10%;
+        left: 27vi;
+        width: 25%;
     }
     .subtitulo{
-        position: absolute;
-        text-align: center;
-        font-size: 1vi;
-        font-family: Light;
-        left: 10.5vi;
-        top: 13vi;
+    
+        font-size: 3vi;
+        left: 4vi;
+        top: 40vi;
     }
     .boton{
         background-color: transparent;
         border: none;
-        font-size: 1.2vi;
+        font-size: 3.5vi;
         color: white;
         margin-top: 1vi;
         cursor: pointer;
@@ -277,10 +258,10 @@ body {
     
     .botonsito {
         position: absolute;
-        top: 27vi;
-        left: 15vi;
-        height: 3.5vi;
-        width: 16.5vi;
+        top: 86vi;
+        left: 18vi;
+        height: 7vi;
+        width: 34vi;
         background-color: #ff7221;
         border: #ff7221;
         border-radius: 2vi;
@@ -290,15 +271,9 @@ body {
     
     
     #pie {
-        position: absolute;
-        color: rgb(0, 0, 0);
-        bottom: 2%;
-        left: 8vi;
-        text-align: center;
-        color: black;
-        font-family: Light;
-        top: 32vi;
-        font-size: 0.8vi;
+        left: 4vi;
+        top: 100vi;
+        font-size: 2.5vi;
     }
 
 }
