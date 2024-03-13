@@ -23,10 +23,9 @@ body {
 
 .logo {
     position: absolute;
-    width: 2vi; 
-    top: 20vi; 
-    left: 50vi;
-    transform: translateX(-50%);
+    width: 15vi; 
+    top: 17vi; 
+    left: 40vi;
     animation: desvanecer 2s;
     opacity: 0;
 }
@@ -163,9 +162,9 @@ body {
 }
 @media only screen and (max-width: 430px) {
     .logo {
-        width: 8vi; 
-        top: 30vi; 
-        left: 50vi;
+        width: 40vi; 
+        top: 100vi; 
+        left: 55vi;
         transform: translateX(-50%);
         animation: desvanecer 2s;
         opacity: 0;

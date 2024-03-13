@@ -181,7 +181,7 @@ body {
     }
     
     .logo2 {
-        width: 20vi;
+        width: 100vi;
         top: 70vi; 
         left: 30vi; 
         animation: aparecer2 2s forwards;
