@@ -12,7 +12,6 @@ body {
     background: url('Imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
-    font-family: regular;
 }
 
 .container {
@@ -45,7 +44,8 @@ body {
     height: 37vi;
     top: 10vi;
     left: 26vi;
-    opacity: 1;
+    opacity: 0;
+    animation-delay: 2s;
     animation: aparecer 3s;
 }
 
