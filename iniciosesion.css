@@ -24,8 +24,8 @@ body {
 .logo {
     position: absolute;
     width: 15vi; 
-    top: 17vi; 
-    left: 40vi;
+    top: 18vi; 
+    left: 45%;
     animation: desvanecer 2s;
     opacity: 0;
 }

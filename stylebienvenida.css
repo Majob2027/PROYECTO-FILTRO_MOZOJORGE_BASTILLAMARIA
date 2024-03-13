@@ -97,8 +97,9 @@ body {
 
 .logo2 {
     position: absolute;
-    top: 20vi; /* Ajustado para que sea proporcional */
-    left: 45vi; /* Ajustado para que sea proporcional */
+    width: 20vi;
+    top: 8vi; 
+    left: 35%; /* Ajustado para que sea proporcional */
     animation: aparecer2 2s forwards;
     animation-delay: 4s;
     opacity: 0;
@@ -181,9 +182,9 @@ body {
     }
     
     .logo2 {
-        width: 100vi;
-        top: 70vi; 
-        left: 30vi; 
+        width: 40vi;
+        top: 40vi; 
+        left: 18vi; 
         animation: aparecer2 2s forwards;
         animation-delay: 4s;
         opacity: 0;
