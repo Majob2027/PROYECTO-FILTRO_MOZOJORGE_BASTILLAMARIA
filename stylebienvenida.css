@@ -97,9 +97,9 @@ body {
 
 .logo2 {
     position: absolute;
-    width: 20vi;
-    top: 8vi; 
-    left: 35%; /* Ajustado para que sea proporcional */
+    width: 40%;
+    top: 16vh; 
+    left: 30%; /* Ajustado para que sea proporcional */
     animation: aparecer2 2s forwards;
     animation-delay: 4s;
     opacity: 0;
@@ -154,7 +154,7 @@ body {
     
     .sub1 {
         top: 30vi;
-        left: 13vi;
+        left: 12vi;
         font-size: 3vi;
 
     }
@@ -171,7 +171,7 @@ body {
     
     .sub2 {
         top: 70vi;
-        left: 6vi;
+        left: 3vi;
         font-size: 3vi;
     }
     
@@ -184,7 +184,7 @@ body {
     .logo2 {
         width: 40vi;
         top: 40vi; 
-        left: 18vi; 
+        left: 16vi; 
         animation: aparecer2 2s forwards;
         animation-delay: 4s;
         opacity: 0;

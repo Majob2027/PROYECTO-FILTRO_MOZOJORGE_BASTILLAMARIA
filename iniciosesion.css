@@ -24,7 +24,7 @@ body {
 .logo {
     position: absolute;
     width: 15vi; 
-    top: 18vi; 
+    top: 30vh; 
     left: 45%;
     animation: desvanecer 2s;
     opacity: 0;
@@ -50,7 +50,7 @@ body {
 }
 
 @keyframes aparecer {
-    0% { opacity: 0; }
+    0% { opacity: 0; }relative
     80% { opacity: 0; }
     100% { opacity: 1; }
 }
@@ -163,8 +163,8 @@ body {
 @media only screen and (max-width: 430px) {
     .logo {
         width: 40vi; 
-        top: 100vi; 
-        left: 55vi;
+        top: 80vi; 
+        left: 53vi;
         transform: translateX(-50%);
         animation: desvanecer 2s;
         opacity: 0;
@@ -181,7 +181,7 @@ body {
         width: 70vi;
         height: 120vi;
         top: 40vi;
-        left: 17vi;
+        left: 15vi;
         opacity: 1;
         animation: aparecer 3s;
     }
@@ -195,7 +195,6 @@ body {
     
     
     .bienvenidopanel {
-        bottom: 15%;
         color: black;
         font-family: regular;
         top: 26vi;
@@ -233,14 +232,14 @@ body {
     
     .loguitoform {
     
-        top: 1.5vi;
+        top: 1vi;
         left: 27vi;
         width: 25%;
     }
     .subtitulo{
     
         font-size: 3vi;
-        left: 4vi;
+        left: 3.5vi;
         top: 40vi;
     }
     .boton{
