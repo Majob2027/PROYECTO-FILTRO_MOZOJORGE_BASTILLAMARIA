@@ -123,16 +123,12 @@ body {
     
     .cuadroblanco {
         margin-top: 30%;
-        position: absolute;
-        background: white;
         border-radius: 3.5vi;
-        text-align: center;
         width: 60vi;
         height: 105vi;
         top: 10vi;
         left: 23vi;
-        opacity: 1;
-        animation: aparecer 3s;
+        animation: aparecer 3s forwards;
     }
     @keyframes aparecer {
         0% {
@@ -150,50 +146,41 @@ body {
         }
     
     .loguito2 {
-        position: absolute;
         width: 60%; 
         top: 2vi;
-        left: 10.5vi;
+        left: 10.2vi;
     }
     
     .sub1 {
-        position: absolute;
         top: 30vi;
         left: 13vi;
         font-size: 3vi;
-        font-family: Light;
+
     }
     
     .fotopedrito {
         position: absolute;
         width: 60%;
         margin-top: 23vi;
-        margin-left: 2vi;
+        margin-left: 1.8vi;
         
     }
     
     
     
     .sub2 {
-        position: absolute;
         top: 70vi;
         left: 6vi;
-        text-align: center;
         font-size: 3vi;
-        font-family: Light;
     }
     
     .pie2 {
-        position: absolute;
-        color: slategrey;
         top: 80vi;
         left: 17.9vi;
-        color: black;
         font-size: 3vi;
     }
     
     .logo2 {
-        position: absolute;
         width: 20vi;
         top: 70vi; 
         left: 30vi; 
@@ -211,6 +198,7 @@ body {
         100% {
             opacity: 0;
         }
+}
 }
 
 
