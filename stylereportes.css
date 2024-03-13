@@ -379,29 +379,29 @@
     .titulo{
         left: 20vi;
         top: 25vi;
-        font-size: 4vi;
+        font-size: 0vi;
     }
     .cuadronaranja{
         width: 66vi;
         height: 50vi;
-        left: 12%;
-        top: 35vi;
+        left: 13.8%;
+        top: 38vi;
         font-size: 3vi;
     }
     .cuadronaranja2{
         width: 66vi;
         height: 50vi;
-        left: 12%;
-        top: 90vi;
+        left: 13.8%;
+        top: 93vi;
     }
     .cuadronaranja3{
         width: 66vi;
-        left: 12%;
-        top: 148vi;
+        left: 13.8%;
+        top: 151vi;
         height: 50vi;
     }
     .textocuadronaranja2{
-        left: 15vi;
+        left: 17vi;
         top: 100vi;
         font-size: 3vi;
 
@@ -410,14 +410,14 @@
         font-size: 3.5vi;
     }
     .subrecuadro1{
-        left:18vi;
+        left:18.3vi;
         top: 105vi;
         height: 12vi;
         width: 60vi;
 
     }
     .formulario1{
-        left: 0vi;
+        left: 0.2vi;
         height: 4vi;
         width: 40vi;
         font-size: 3vi;
@@ -425,14 +425,14 @@
 
     }
     .subrecuadro2{
-        left: 18vi;
+        left: 18.3vi;
         top: 120vi;
         height: 12vi;
         width: 60vi;
 
     }
     .formulario2{
-        left: 0vi;
+        left: 0.2vi;
         height: 4vi;
         width: 40vi;
         font-size: 3vi;
@@ -450,12 +450,12 @@
 
     .textocuadronaranja3{
         top: 158vi;
-        left: 15vi;
+        left: 17vi;
         font-size: 3vi;
 
     }
     .cuadroblanco{
-        left: 30vi;
+        left: 32.5vi;
         top: 135vi;
         height: 5vi;
         width: 30vi;
@@ -463,7 +463,7 @@
     }
     .cuadroblanco2{
         top: 165vi;
-        left: 17vi;
+        left: 19vi;
         height: 35vi;
         width: 60vi;
         font-size: 3vi;

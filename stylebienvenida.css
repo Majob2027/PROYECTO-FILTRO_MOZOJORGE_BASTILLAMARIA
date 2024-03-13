@@ -12,7 +12,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    background: url('Imagenes/fondo.png') no-repeat center center fixed;
+    background: url('imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
     font-family: regular;
@@ -100,17 +100,17 @@ body {
     width: 40%;
     top: 16vh; 
     left: 30%; /* Ajustado para que sea proporcional */
-    animation: aparecer2 2s forwards;
+    animation: aparecer2 3s forwards;
     animation-delay: 4s;
     opacity: 0;
 }
 
 @keyframes aparecer2 {
     0% {
-        opacity: 1;
+        opacity: 0;
     }
     50% {
-        opacity: 0;
+        opacity: 1;
     }
     100% {
         opacity: 0;

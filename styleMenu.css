@@ -174,66 +174,64 @@
     }
     .imgconfiguracion{
         top: 10.5vh;
-        width: 4%;
+        width: 0%;
         left: 85%;
     }
     .imgnotificaciones{
         top: 10.5vh;
-        width: 4%;
+        width: 0%;
         left: 93%;
     }
     .imgañadir{
-        width: 9%;
-        left: 87%;
-        top: 20vh;
+        width: 8%;
+        left: 12%;
+        top: 12.5vh;
     }
     .textoañadir{
-        font-size: 3vi;
-        left: 87.2%;
-        top: 26vh;
-    }
+        font-size: 0vi;
+        }
 
     .imgrecargar{
-        width: 9%;
-        left: 87%;
-        top: 34vh;
+        width: 8%;
+        left: 29%;
+        top: 12.5vh;
     }
     .textorecargar{
-        font-size: 3vi;
+        font-size: 0vi;
         left: 85.5%;
-        top: 39vh;
+        top: vh;
         }
     
 
     .imgeliminar{
-        width: 9%;
-        left: 87%;
-        top: 47vh;
+        width: 7.5%;
+        left: 45.8%;
+        top: 12vh;
     }
     .textoeliminar{
-        font-size: 3vi;
+        font-size: 0vi;
         left: 86.5%;
-        top: 53vh;
+        top: 10vh;
         }
     
     .imgreportes{
-        width: 9%;
-        left: 87%;
-        top: 61vh;
+        width: 8%;
+        left: 62%;
+        top: 12.2vh;
     }
     .textoreportes{
-        font-size: 3vi;
+        font-size: 0vi;
         left: 86%;
         top: 67vh;
         }
     
     .imgayuda{
-        width: 9%;
-            left: 87%;
-            top: 75vh;  
+        width: 8%;
+        left: 78%;
+        top: 12.5vh;  
     }
     .textoayuda{
-        font-size: 3vi;
+        font-size: 0vi;
         left: 87.3%;
         top: 81vh;
      }

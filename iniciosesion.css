@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('Imagenes/fondo.png') no-repeat center center fixed;
+    background: url('imagenes/fondo.png') no-repeat center center fixed;
     background-color: black;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ body {
     position: absolute;
     width: 15vi; 
     top: 30vh; 
-    left: 45%;
+    left: 40%;
     animation: desvanecer 2s;
     opacity: 0;
 }
@@ -45,8 +45,8 @@ body {
     top: 10vi;
     left: 26vi;
     opacity: 0;
-    animation-delay: 6s;
-    animation: aparecer 3s forwards;
+    animation-delay: 2s;
+    animation: aparecer 3s;
 }
 
 @keyframes aparecer {

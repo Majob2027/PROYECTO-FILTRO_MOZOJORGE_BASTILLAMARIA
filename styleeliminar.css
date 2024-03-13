@@ -389,8 +389,8 @@
 
 .titulo {
     position: absolute;
-    top: 32.8vi;
-    left: 20vw;
+    top: 42.8vi;
+    left: 21vw;
     font-size: 4vw;
     font-family: regular;
     text-align: center;
@@ -400,8 +400,8 @@
 
 .cuadronaranja {
 
-    top: 50.3vi;
-    left: 15vi;
+    top: 53.3vi;
+    left: 17vi;
     padding: 2vw;
     font-size: 2vw;
     width: 60%;
@@ -410,8 +410,8 @@
 .cuadritoblanco {
     width: 45%;
     height: 90.5vi;
-    top: 55vi;
-    left: 24.5vi;
+    top: 60vi;
+    left: 26.5vi;
 }
 
 
