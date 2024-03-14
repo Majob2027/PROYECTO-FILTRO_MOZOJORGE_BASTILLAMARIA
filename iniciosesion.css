@@ -22,9 +22,9 @@ body {
 
 .logo {
     position: absolute;
-    width: 15vi; 
-    top: 30vh; 
-    left: 40%;
+    width: 12vi; 
+    top: 37vh; 
+    left: 43%;
     animation: desvanecer 2s;
     opacity: 0;
 }
@@ -42,7 +42,7 @@ body {
     text-align: center;
     width: 47vi;
     height: 37vi;
-    top: 10vi;
+    top: 8vi;
     left: 26vi;
     opacity: 0;
     animation-delay: 2s;
